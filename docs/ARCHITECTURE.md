@@ -1,105 +1,149 @@
-# GSIS Architecture
+# GSIS architecture
 
-## Objective
+GSIS is a file-based learning pipeline with two main paths: graph validation and schema mapping. Both start from generated banking data, but they serve different questions. Validation asks whether the graph satisfies business constraints. Mapping asks which ontology concept an incoming term should use. Evaluation measures the mapping path against a small labeled dataset.
 
-The Graph Schema Intelligence System governs how fields from independent banking platforms enter a shared semantic model. Its central design decision is to separate evidence generation from ontology governance: embeddings and Gemini recommend mappings, while deterministic rules, collision checks, confidence routing, and human review control whether those recommendations are accepted.
-
-## End-to-end flow
+## System context
 
 ```mermaid
-flowchart TD
-    A[Six synthetic banking sources] --> B[Schema profiler]
-    B --> C[Incoming schema terms]
-    D[RDF/OWL banking ontology] --> E[Ontology term catalog]
-    C --> F[Vertex AI embeddings]
-    E --> F
-    F --> G[Cosine vector retrieval]
-    G --> H[Gemini semantic mapper]
-    D --> I[RDF graph builder]
-    I --> J[SHACL validation]
-    I --> K[SPARQL quality checks]
-    H --> L[Semantic collision detector]
-    D --> L
-    L --> M[Confidence router]
-    M --> N[Human review]
-    N --> O[Feedback store]
-    N --> P[Ontology migration analysis]
-    M --> Q[Evaluation against ground truth]
-    I --> R[Optional Neo4j projection]
+flowchart LR
+    S[Six synthetic banking datasets] --> P[GSIS Python stages]
+    O[Banking RDF/OWL ontology] --> P
+    T[Labeled schema terms] --> P
+    P --> A[CSV, RDF, and validation artifacts]
+    P --> V[Vertex AI embeddings and Gemini]
+    V --> P
+    H[Reviewer edits to review_queue.csv] --> P
+    P --> N[(Optional Neo4j database)]
 ```
 
-## Component responsibilities
+The local filesystem is the pipeline's state store. Scripts read and overwrite named files under `data/` and `outputs/`; there is no scheduler, service API, or transactional review store. Vertex AI is used only by stages 7 and 9. Neo4j is optional and does not feed the mapping evaluation.
 
-### Source simulation and profiling
+## Implemented data flow
 
-Stage 1 creates deterministic synthetic data for Cards, Core Banking accounts, Core Banking customers, CRM, Fraud, and Payments. The sources deliberately use different names for related concepts and include known quality defects. Stage 2 profiles 49 fields and identifies likely schema overlaps before any model call.
+```mermaid
+flowchart TB
+    subgraph Inputs[Inputs]
+        G[Stage 1: data generator]
+        Raw[data/raw CSVs]
+        Terms[data/schemas term catalogs]
+        Truth[data/schemas mapping ground truth]
+        Ont[Banking ontology]
+        Shapes[SHACL shapes]
+        G --> Raw
+        G --> Terms
+        G --> Truth
+    end
 
-### Ontology and graph construction
+    subgraph GraphPath[Graph quality path]
+        Profile[2: schema profiling]
+        Inspect[3: ontology inspection]
+        Build[4: RDF graph builder]
+        Graph[Combined RDF graph]
+        Shacl[5: SHACL validation]
+        Sparql[6: SPARQL quality checks]
+        Validation[Validation reports]
+        Raw --> Profile
+        Raw --> Build
+        Ont --> Inspect
+        Ont --> Build
+        Build --> Graph
+        Graph --> Shacl
+        Graph --> Sparql
+        Shapes --> Shacl
+        Shacl --> Validation
+        Sparql --> Validation
+    end
 
-The banking ontology defines concepts such as `Party`, `Customer`, `Merchant`, `FinancialProduct`, `Account`, `Card`, `Transaction`, and `RiskEvent`, plus domain/range relationships. The recorded ontology contains 269 triples. Stage 4 converts the synthetic records into a 41,799-triple RDF graph.
+    subgraph MappingPath[Schema mapping path]
+        Embed[7: Vertex embeddings]
+        Vectors[Embedding CSVs]
+        Search[8: cosine top-three search]
+        Candidates[Vector candidates]
+        Gemini[9: Gemini mapper]
+        Recommendations[Mapping recommendations]
+        Collision[10: collision detector]
+        Route[11: confidence router]
+        Routing[Routing decisions]
+        Review[12: review queue generator]
+        Queue[Review queue]
+        Feedback[Feedback retriever]
+        Store[Feedback store]
+        Terms --> Embed
+        Embed --> Vectors
+        Vectors --> Search
+        Search --> Candidates
+        Candidates --> Gemini
+        Gemini --> Recommendations
+        Recommendations --> Collision
+        Ont --> Collision
+        Truth -->|learning safeguard| Collision
+        Collision --> Route
+        Route --> Routing
+        Routing --> Review
+        Review --> Queue
+        Queue -->|completed manual decisions| Feedback
+        Feedback --> Store
+    end
 
-### Deterministic validation
+    subgraph Independent[Independent analysis and projection]
+        Migration[13: migration impact]
+        Neo4j[14: Neo4j loader]
+        Evaluate[15: mapping evaluation]
+        Metrics[Evaluation reports]
+        Graph --> Migration
+        Raw --> Neo4j
+        Routing --> Evaluate
+        Truth --> Evaluate
+        Evaluate --> Metrics
+    end
+```
 
-SHACL validates structural and datatype constraints. SPARQL checks detect missing referenced entities and duplicate identifiers. The recorded run produced five SHACL violations and three failing SPARQL quality rules. These are expected because the generator injects learning examples such as an orphan customer reference and an invalid currency.
+Arrows show file dependencies, not an automatically orchestrated run. Stage numbers describe the learning sequence. The profile output is useful for inspection, but the current embedding stage reads the term catalogs generated by stage 1 directly. The feedback file is produced after a reviewer completes rows in the queue; the mapper does not read that feedback automatically on a later run.
 
-### Semantic candidate generation
+## Component contracts
 
-Stage 7 uses `gemini-embedding-001` with 768 output dimensions. Ontology definitions are embedded as retrieval documents; incoming terms are embedded as retrieval queries. Stage 8 calculates cosine similarity and retains the top three candidates. The score is a retrieval signal, not a probability.
+| Boundary | Reads | Writes | Current behavior |
+|---|---|---|---|
+| Source preparation | Fixed-seed generator | Six raw CSVs, term catalogs, ground truth | Recreates the synthetic example data. |
+| Profiling | Raw CSVs | `data/processed/` | Reports 49 fields and overlap candidates. |
+| RDF graph | Raw CSVs, ontology | `outputs/rdf/` | Creates the banking graph and a graph combined with the ontology. |
+| Graph checks | Combined graph, SHACL shapes | `outputs/validation/` | Reports violations; it does not repair source records. |
+| Embeddings | Term catalogs, Google Cloud credentials | Two embedding CSVs | Uses `gemini-embedding-001` with 768 dimensions. |
+| Retrieval | Embedding CSVs | `vector_candidates.csv` | Cosine similarity, top three per incoming term. |
+| Semantic mapping | Vector candidates, Vertex AI | `gemini_mappings.csv` | Gemini 2.5 Flash recommends concept and action. |
+| Collision and routing | Mapping CSV, ontology, labeled truth | Collision and routing CSVs | Applies ontology checks, ground-truth comparison, 40/60 score blend, and routing rules. |
+| Review | Routing CSV, manual CSV edits | Review queue, auto approvals, feedback store | The generator initially writes `PENDING` rows. A completed queue is a separate manual state. |
+| Migration analysis | Combined RDF graph | `deprecation_impact.csv` | Fixed `Client` to `Customer` demonstration. |
+| Neo4j projection | Raw customer, account, transaction CSVs | Neo4j nodes and relationships | Independent property graph load; it is not a conversion of the validated RDF artifact. |
+| Evaluation | Routing CSV, labeled truth | Evaluation CSVs | Measures pre-review recommendations on 12 terms. |
 
-### Model-assisted mapping
+## Decision path
 
-Stage 9 provides Gemini 2.5 Flash with the incoming term and vector candidates. The model returns a structured recommendation, reuse/create action, semantic score, and explanation. The application stores the response in CSV for traceability.
+The mapper chooses `REUSE`, `CREATE_NEW`, or `REVIEW`. The collision detector checks whether a reused class exists in the ontology and compares the recommendation with `mapping_ground_truth.csv`. That comparison is appropriate for this labeled exercise, but it leaks the evaluation answer into the routing path. Production collision detection would need to rely on ontology constraints, field context, and approved mapping history without reading ground truth.
 
-### Governance controls
+The router computes `0.40 × top_vector_score + 0.60 × semantic_score`. A collision caps confidence at `0.49`; `REVIEW` caps it at `0.69`. `CREATE_NEW` and collisions go to `HUMAN_ESCALATION`. Otherwise, scores of at least `0.90` are eligible for `AUTO_APPROVE`, scores from `0.70` to below `0.90` go to `SOFT_REVIEW`, and lower scores go to `HUMAN_ESCALATION`. These are hand-set demonstration thresholds, not calibrated probabilities.
 
-Stage 10 compares model recommendations with ontology constraints and expected semantic roles. Stage 11 combines 40% vector similarity and 60% Gemini semantic confidence, then applies collision penalties and routing thresholds. A collision is treated as a governance signal rather than merely another model score.
+The recorded run sent all 12 terms to review and approved none automatically. The queue generator creates empty reviewer fields and marks them `PENDING`. The committed queue contains completed decisions entered later; rerunning `review_manager.py` would overwrite those entries unless they are preserved elsewhere. `feedback_retriever.py` combines completed reviews with automatic approvals into `feedback_store.csv`.
 
-The recorded run routed all 12 mappings to review: five to soft review and seven to human escalation. This conservative behavior produced 0% auto-approval coverage and a 100% human-intervention rate.
+## Deployment and trust boundaries
 
-### Human review and feedback
+- `data/raw/` contains synthetic people and transactions. The same workflow would need data classification and access controls before use with real banking records.
+- Stages 7 and 9 send term descriptions and mapping context to Google Vertex AI. Application Default Credentials and the project ID come from the local environment.
+- Stage 14 connects to the Neo4j URI with environment-supplied credentials. `NEO4J_CLEAR_DATABASE=true` enables a full database reset; the default is false.
+- CSV and RDF files are local artifacts. There is no cross-stage transaction, versioned run manifest, or automatic rollback.
 
-Reviewers can approve, remap, or approve creation of a new concept. The recorded feedback includes:
+## Recorded results and interpretation
 
-- `merchant_ref`: remapped to the existing `Merchant` concept;
-- `subject`: remapped from generic `Party` to `Customer`;
-- `mobile_wallet`: approved as the new `DigitalWallet` concept.
+The repository records 4,450 synthetic source rows, 49 profiled fields, 269 ontology triples, and 41,799 triples in the combined RDF graph. The graph checks found five SHACL violations and three failing SPARQL rules. The 12-term pre-review mapping evaluation reports `0.6667` accuracy, `0.5` collision recall, `0.0` auto-approval coverage, and `1.0` human-intervention rate.
 
-The feedback store makes reviewed outcomes available to future retrieval or few-shot prompting.
+`auto_approval_precision` and `false_auto_approval_rate` are stored as zero when there are no automatic approvals. They are not statistically measured precision or error rates for an auto-approved group. The review decisions are recorded separately from the pre-review evaluation.
 
-### Migration analysis and serving
+## Architecture changes for a production implementation
 
-Stage 13 estimates the impact of replacing deprecated concepts. The demonstration assessed replacing `Client` with `Customer` and reported 500 replacement instances with low migration risk. Stage 14 optionally projects selected records into Neo4j for graph exploration; the RDF graph remains the validation source of truth.
-
-### Evaluation
-
-Stage 15 joins 12 predictions with labeled ground truth. The recorded pre-review mapping accuracy is 66.67%, collision recall is 50%, and the false-auto-approval rate is 0 because nothing was automatically approved. These measurements describe a small learning dataset and should not be generalized to production performance.
-
-## Design choices
-
-### Hybrid reasoning
-
-Vector retrieval narrows the search space, Gemini interprets business meaning, RDF/OWL supplies explicit semantics, and SHACL/SPARQL enforce deterministic quality rules. No single component is trusted as the sole decision maker.
-
-### Human-in-the-loop routing
-
-Uncertain mappings do not silently modify the ontology. The pipeline records confidence, collision evidence, routing decisions, and reviewer outcomes so a governance team can audit why a concept was reused or created.
-
-### Reproducibility
-
-The data generator uses fixed random seeds. Generated inputs, labeled ground truth, intermediate artifacts, and final metrics are retained in the repository so the recorded evaluation can be inspected without rerunning paid cloud stages.
-
-### Safety boundaries
-
-Credentials come from environment variables. Neo4j database deletion is opt-in through `NEO4J_CLEAR_DATABASE=true`. Generated data is synthetic, but cloud stages still transmit schema descriptions to Vertex AI and should be reviewed before use with real enterprise metadata.
-
-## Improvements for a production version
-
-1. Expand and stratify the labeled mapping set.
-2. Calibrate confidence thresholds using precision-recall curves.
-3. Add ontology aliases and relationship-aware candidate scoring.
-4. Version prompts, model IDs, datasets, and ontology changes together.
-5. Add automated unit, integration, and regression tests.
-6. Store review decisions in a transactional service rather than CSV.
-7. Add access control, audit logging, lineage, PII classification, and secret management.
-8. Deploy RDF and Neo4j loading through idempotent jobs with rollback support.
-
+1. Isolate ground truth so only the evaluation job can read it; replace the stage 10 label comparison with ontology and approved-history rules.
+2. Give each run an immutable ID and version its inputs, ontology, prompt, model, configuration, and outputs together.
+3. Store reviewer decisions in a durable service with audit history, and make reruns preserve completed decisions.
+4. Apply approved ontology changes explicitly, with validation and rollback before publishing a new ontology version.
+5. Calibrate routing on a larger held-out set and report precision only when a decision category has observations.
+6. Make Neo4j an explicit projection from an approved graph if RDF and Neo4j are intended to represent the same state.
+7. Add orchestration, idempotent stage execution, failure handling, secrets management, and access controls before processing real data.

@@ -17,32 +17,25 @@ GSIS treats schema onboarding as a governed decision:
 
 ## Architecture
 
-```text
-Synthetic banking sources
-        |
-        v
-Schema profiling --> RDF/OWL ontology --> RDF graph
-        |                                    |
-        |                               SHACL + SPARQL
-        v
-Vertex embeddings --> vector candidates --> Gemini mapping
-                                              |
-                                              v
-                                semantic collision detection
-                                              |
-                                              v
-                                  confidence-based routing
-                                      /               \
-                              auto approval        human review
-                                      \               /
-                                       feedback store
-                                              |
-                             migration impact + evaluation
-                                              |
-                                      optional Neo4j load
+```mermaid
+flowchart LR
+    Data[Synthetic source CSVs] --> RDF[RDF graph]
+    Ont[Banking ontology] --> RDF
+    RDF --> Check[SHACL and SPARQL checks]
+    Terms[Generated schema terms] --> Embed[Vertex embeddings]
+    Embed --> Search[Vector retrieval]
+    Search --> Gemini[Gemini recommendation]
+    Gemini --> Govern[Collision checks and routing]
+    Ont --> Govern
+    Truth[Labeled ground truth] -->|learning safeguard| Govern
+    Govern --> Review[Review queue]
+    Review -->|completed manual decisions| Feedback[Feedback store]
+    Govern --> Eval[Pre-review evaluation]
+    Truth --> Eval
+    Data --> Neo4j[Optional Neo4j loader]
 ```
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for component responsibilities, stage-by-stage data flow, and design tradeoffs.
+The graph checks, schema mapping, and Neo4j load are separate paths. The current collision detector reads labeled ground truth, so its routing behavior is specific to this learning setup. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the detailed component contracts and data flow.
 
 ## The 15 stages
 
@@ -188,4 +181,3 @@ docs/                 architecture, resume bullets, and interview walkthrough
 - [Architecture explanation](docs/ARCHITECTURE.md)
 - [Resume bullets](docs/RESUME_BULLETS.md)
 - [Three-minute interview walkthrough](docs/INTERVIEW_WALKTHROUGH.md)
-
