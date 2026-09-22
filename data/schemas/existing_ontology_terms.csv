@@ -1,0 +1,10 @@
+term,term_type,description
+Customer,Class,Individual maintaining a banking relationship with the bank.
+Party,Class,Generic person or organisation participating in a business relationship.
+Merchant,Class,Business entity receiving payment for goods or services.
+Account,Class,Financial account maintained for a customer.
+Card,Class,Payment card issued to a customer and linked to an account.
+Transaction,Class,Financial movement of value associated with an account.
+RiskEvent,Class,Risk or fraud event associated with banking activity.
+Branch,Class,Physical bank location serving customers.
+PaymentChannel,Class,Channel through which a financial transaction is initiated.

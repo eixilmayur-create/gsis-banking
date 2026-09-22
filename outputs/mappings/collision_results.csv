@@ -1,0 +1,13 @@
+incoming_term,recommended_concept,action,semantic_score,top_vector_score,collision,collision_type,collision_reason,parent_classes
+client,Customer,REUSE,0.7629,0.7629,False,,Mapping is compatible with the ontology and expected concept.,Party
+client_id,Customer,REUSE,0.7027,0.7027,False,,Mapping is compatible with the ontology and expected concept.,Party
+card_holder,Customer,REUSE,0.6749,0.7321,False,,Mapping is compatible with the ontology and expected concept.,Party
+card_holder_id,Customer,REUSE,0.662,0.7052,False,,Mapping is compatible with the ontology and expected concept.,Party
+account_ref,Account,REUSE,0.6951,0.6969,False,,Mapping is compatible with the ontology and expected concept.,FinancialProduct
+merchant_ref,MerchantIdentifier,CREATE_NEW,0.7491,0.7491,False,,No existing ontology mapping selected. Candidate should follow ontology review.,
+payment_event,Transaction,REUSE,0.6993,0.6993,False,,Mapping is compatible with the ontology and expected concept.,
+subject,Party,REUSE,0.657,0.6858,True,SEMANTIC_MAPPING_MISMATCH,Recommended concept Party differs from expected semantic concept Customer.,
+fraud_case,RiskEvent,REUSE,0.7307,0.7307,False,,Mapping is compatible with the ontology and expected concept.,
+mobile_wallet,MobileWallet,CREATE_NEW,0.0,0.6624,False,,No existing ontology mapping selected. Candidate should follow ontology review.,
+borrower,Customer,REUSE,0.7183,0.7183,False,,Mapping is compatible with the ontology and expected concept.,Party
+terminal,PaymentChannel,REUSE,0.6634,0.702,False,,Mapping is compatible with the ontology and expected concept.,

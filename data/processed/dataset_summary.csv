@@ -1,0 +1,7 @@
+source_system,source_file,columns,rows,identifier_fields
+Cards,cards.csv,8,450,3
+Core Banking,accounts.csv,8,700,4
+Core Banking,customers.csv,9,500,1
+Crm,crm_customers.csv,6,550,1
+Fraud,risk_events.csv,8,250,3
+Payments,transactions.csv,10,2000,4

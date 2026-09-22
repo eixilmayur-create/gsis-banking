@@ -1,0 +1,37 @@
+source_system,incoming_term,incoming_description,candidate_rank,ontology_candidate,similarity_score,ontology_description
+CRM,client,Person maintaining or potentially establishing a relationship with the bank.,1,Customer,0.7629,Individual maintaining a banking relationship with the bank.
+CRM,client,Person maintaining or potentially establishing a relationship with the bank.,2,Party,0.6819,Generic person or organisation participating in a business relationship.
+CRM,client,Person maintaining or potentially establishing a relationship with the bank.,3,Account,0.6817,Financial account maintained for a customer.
+CRM,client_id,Unique identifier assigned to a banking client.,1,Customer,0.7027,Individual maintaining a banking relationship with the bank.
+CRM,client_id,Unique identifier assigned to a banking client.,2,Account,0.6603,Financial account maintained for a customer.
+CRM,client_id,Unique identifier assigned to a banking client.,3,Branch,0.6525,Physical bank location serving customers.
+Cards,card_holder,Customer to whom a payment card has been issued.,1,Card,0.7321,Payment card issued to a customer and linked to an account.
+Cards,card_holder,Customer to whom a payment card has been issued.,2,Merchant,0.6767,Business entity receiving payment for goods or services.
+Cards,card_holder,Customer to whom a payment card has been issued.,3,Customer,0.6749,Individual maintaining a banking relationship with the bank.
+Cards,card_holder_id,Identifier of the customer holding the card.,1,Card,0.7052,Payment card issued to a customer and linked to an account.
+Cards,card_holder_id,Identifier of the customer holding the card.,2,Customer,0.662,Individual maintaining a banking relationship with the bank.
+Cards,card_holder_id,Identifier of the customer holding the card.,3,Merchant,0.6435,Business entity receiving payment for goods or services.
+Payments,account_ref,Reference to the financial account used in a transaction.,1,Transaction,0.6969,Financial movement of value associated with an account.
+Payments,account_ref,Reference to the financial account used in a transaction.,2,Account,0.6951,Financial account maintained for a customer.
+Payments,account_ref,Reference to the financial account used in a transaction.,3,Card,0.6734,Payment card issued to a customer and linked to an account.
+Payments,merchant_ref,Identifier of a merchant receiving payment.,1,Merchant,0.7491,Business entity receiving payment for goods or services.
+Payments,merchant_ref,Identifier of a merchant receiving payment.,2,PaymentChannel,0.6461,Channel through which a financial transaction is initiated.
+Payments,merchant_ref,Identifier of a merchant receiving payment.,3,Card,0.6305,Payment card issued to a customer and linked to an account.
+Payments,payment_event,Financial event representing transfer or movement of money.,1,Transaction,0.6993,Financial movement of value associated with an account.
+Payments,payment_event,Financial event representing transfer or movement of money.,2,Merchant,0.6763,Business entity receiving payment for goods or services.
+Payments,payment_event,Financial event representing transfer or movement of money.,3,PaymentChannel,0.6702,Channel through which a financial transaction is initiated.
+Fraud,subject,Person being evaluated in a fraud or risk investigation.,1,RiskEvent,0.6858,Risk or fraud event associated with banking activity.
+Fraud,subject,Person being evaluated in a fraud or risk investigation.,2,Party,0.657,Generic person or organisation participating in a business relationship.
+Fraud,subject,Person being evaluated in a fraud or risk investigation.,3,Card,0.6534,Payment card issued to a customer and linked to an account.
+Fraud,fraud_case,Risk investigation event generated from suspicious banking activity.,1,RiskEvent,0.7307,Risk or fraud event associated with banking activity.
+Fraud,fraud_case,Risk investigation event generated from suspicious banking activity.,2,Transaction,0.6555,Financial movement of value associated with an account.
+Fraud,fraud_case,Risk investigation event generated from suspicious banking activity.,3,Account,0.6365,Financial account maintained for a customer.
+DigitalBanking,mobile_wallet,Digital wallet allowing customers to store value and initiate payments.,1,Transaction,0.6624,Financial movement of value associated with an account.
+DigitalBanking,mobile_wallet,Digital wallet allowing customers to store value and initiate payments.,2,Merchant,0.6461,Business entity receiving payment for goods or services.
+DigitalBanking,mobile_wallet,Digital wallet allowing customers to store value and initiate payments.,3,Card,0.645,Payment card issued to a customer and linked to an account.
+Lending,borrower,Customer who has obtained a loan from the bank.,1,Customer,0.7183,Individual maintaining a banking relationship with the bank.
+Lending,borrower,Customer who has obtained a loan from the bank.,2,Branch,0.6695,Physical bank location serving customers.
+Lending,borrower,Customer who has obtained a loan from the bank.,3,Account,0.6659,Financial account maintained for a customer.
+ATM,terminal,Physical or electronic terminal where banking transactions occur.,1,Branch,0.702,Physical bank location serving customers.
+ATM,terminal,Physical or electronic terminal where banking transactions occur.,2,Transaction,0.6761,Financial movement of value associated with an account.
+ATM,terminal,Physical or electronic terminal where banking transactions occur.,3,PaymentChannel,0.6634,Channel through which a financial transaction is initiated.

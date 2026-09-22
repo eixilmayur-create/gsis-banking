@@ -1,0 +1,501 @@
+customer_id,customer_name,date_of_birth,email,mobile_number,customer_segment,city,state,kyc_status
+CUST00001,Aryan Maharaj,1962-05-21,liamchaudry@example.net,0133890838,Retail,Muzaffarnagar,Manipur,VERIFIED
+CUST00002,Abeer Dutta,1993-03-25,roak@example.org,6155940781,Salary,Vijayawada,Nagaland,VERIFIED
+CUST00003,Janaki Handa,1993-09-01,bathvedant@example.com,4752553419,Premium,Deoghar,Telangana,VERIFIED
+CUST00004,Nihal Shere,1971-07-18,theodore50@example.org,1395376724,Retail,Shahjahanpur,Telangana,VERIFIED
+CUST00005,Priya Rastogi,1970-05-10,lakshitupadhyay@example.com,2691669784,Senior Citizen,Raipur,Sikkim,PENDING
+CUST00006,Harini Choudhury,1965-09-10,ddugar@example.org,1489325288,Retail,Khora ,Karnataka,VERIFIED
+CUST00007,Anirudh Choudhury,1970-06-03,wriddhish03@example.net,8227824896,Retail,Panvel,Tripura,VERIFIED
+CUST00008,Devika Rastogi,1991-06-06,raksha87@example.org,0983930103,Premium,Patna,West Bengal,VERIFIED
+CUST00009,Ekavir Varkey,1961-12-01,vedika38@example.org,3116566701,Senior Citizen,Sambhal,Telangana,VERIFIED
+CUST00010,Ikbal Kothari,1958-10-04,saumyadey@example.com,1781080132,Senior Citizen,Shivpuri,Meghalaya,PENDING
+CUST00011,Nandini Bhargava,1956-12-04,yagate@example.com,7234309805,Premium,Dhanbad,Odisha,PENDING
+CUST00012,Yadavi Wali,1956-06-08,trivedifaris@example.org,6193990916,Senior Citizen,Bhilwara,Gujarat,VERIFIED
+CUST00013,William Lanka,1972-08-27,charitashankar@example.com,9118384251,Retail,Uluberia,Jharkhand,VERIFIED
+CUST00014,Raksha Mittal,1987-05-07,mistryhemang@example.org,2449353487,Student,Faridabad,Assam,VERIFIED
+CUST00015,Aradhana Basu,1945-12-18,kalpit42@example.net,0112805982,Salary,Warangal,Arunachal Pradesh,VERIFIED
+CUST00016,Janya Baral,2006-11-22,shivansh31@example.com,2260256342,Premium,Eluru,West Bengal,VERIFIED
+CUST00017,Upma Kapadia,1959-04-21,tpalla@example.org,5414586850,Retail,Bhilwara,Goa,VERIFIED
+CUST00018,Balvan Chopra,1986-04-26,upai@example.com,6934060883,Student,Chinsurah,Assam,VERIFIED
+CUST00019,Dipta Dash,1994-09-13,yashica46@example.com,3662994680,Salary,Baranagar,Gujarat,VERIFIED
+CUST00020,Ekanta Shroff,1975-10-14,gkala@example.com,9513433200,Senior Citizen,Fatehpur,Punjab,VERIFIED
+CUST00021,Tamanna Sachdeva,2006-01-09,leenatalwar@example.com,6328708317,Retail,Madhyamgram,Sikkim,PENDING
+CUST00022,Saanvi Thaman,1974-10-05,vdutt@example.com,8734714345,Senior Citizen,Panvel,Assam,VERIFIED
+CUST00023,Matthew Kashyap,1971-10-15,tanishbhatt@example.com,6036690967,Student,Nagercoil,Jharkhand,VERIFIED
+CUST00024,Oni Yohannan,1996-08-03,vinayakanda@example.com,5627298069,Senior Citizen,Gwalior,Rajasthan,VERIFIED
+CUST00025,Krishna Shenoy,1958-02-01,ladladli@example.com,6464170805,Senior Citizen,Coimbatore,Tripura,VERIFIED
+CUST00026,Azaan Kota,1959-04-16,duawilliam@example.org,7452991241,Senior Citizen,Bijapur,Odisha,VERIFIED
+CUST00027,Mekhala Issac,1950-11-22,harshmitra@example.net,8651850671,Retail,Mirzapur,Rajasthan,VERIFIED
+CUST00028,Michael Saran,1957-09-15,veda76@example.net,4737996507,Premium,South Dumdum,Meghalaya,VERIFIED
+CUST00029,Isha Kuruvilla,1968-11-18,anya80@example.net,7837770143,Retail,Latur,Jharkhand,VERIFIED
+CUST00030,Urvashi Wali,1969-02-11,wnarayanan@example.net,3135182337,Retail,Giridih,Tripura,PENDING
+CUST00031,Harish Hari,1965-11-18,jalsagola@example.com,0084271094,Salary,Nangloi Jat,Manipur,PENDING
+CUST00032,Qarin Behl,1962-11-26,ecomar@example.com,2294131869,Salary,Nagaon,Madhya Pradesh,VERIFIED
+CUST00033,Saanvi Mishra,2004-04-03,kmody@example.net,3412328120,Salary,Hospet,Tamil Nadu,VERIFIED
+CUST00034,Bishakha Bali,1961-06-22,barkha71@example.net,6183242102,Premium,Hindupur,Telangana,VERIFIED
+CUST00035,Reva Dash,1977-08-13,neha48@example.net,0659401399,Retail,Agartala,Odisha,VERIFIED
+CUST00036,Parth Singhal,1981-01-13,lmall@example.net,5655125674,Senior Citizen,Jamalpur,Arunachal Pradesh,VERIFIED
+CUST00037,Gaurang Murty,1962-11-24,jack68@example.org,8597703482,Premium,Bahraich,Tamil Nadu,PENDING
+CUST00038,Jairaj Balakrishnan,1988-08-05,nathanmukhopadhyay@example.net,3171274846,Student,Chittoor,Haryana,VERIFIED
+CUST00039,Maanav Rajagopal,1958-09-10,ekarajmajumdar@example.com,4499727875,Senior Citizen,Suryapet,Tripura,VERIFIED
+CUST00040,Tamanna Nagy,2004-11-24,williamrajagopal@example.org,6627028951,Salary,Salem,Mizoram,VERIFIED
+CUST00041,Alexander Dhawan,1973-08-15,falansingh@example.com,5865780913,Premium,Ambattur,Telangana,VERIFIED
+CUST00042,Radha Chaudhari,1997-06-19,sawhneyojas@example.net,0455623869,Salary,Tirunelveli,Goa,PENDING
+CUST00043,Lavanya Khosla,1979-08-03,vincentshenoy@example.net,7482175946,Salary,Sirsa,West Bengal,VERIFIED
+CUST00044,Rushil Rajagopalan,2003-10-16,pchhabra@example.com,0640909743,Premium,Muzaffarnagar,Rajasthan,VERIFIED
+CUST00045,Zashil Devan,1988-06-22,baraldayamai@example.com,1456232858,Premium,Dehradun,Himachal Pradesh,PENDING
+CUST00046,Chakrika Nigam,2000-06-13,sidhufaqid@example.org,1604817549,Student,Serampore,Bihar,PENDING
+CUST00047,Urishilla Bakshi,1987-11-18,timothy17@example.net,0047113826,Premium,Uluberia,Sikkim,VERIFIED
+CUST00048,Mohammed Sachdeva,1990-04-16,surinikita@example.com,7351585064,Premium,Bhilai,West Bengal,VERIFIED
+CUST00049,Gavin Kala,1989-05-22,bedigauri@example.org,8393352904,Senior Citizen,Bikaner,Nagaland,VERIFIED
+CUST00050,Owen Choudhary,1990-09-15,deepalexander@example.com,2402681177,Senior Citizen,Anand,Odisha,PENDING
+CUST00051,Siya Thakur,1960-10-18,vermacharvi@example.com,6177115921,Senior Citizen,Panipat,Punjab,PENDING
+CUST00052,Lakshmi Wali,1965-10-15,mtiwari@example.com,6736576615,Salary,Satara,Sikkim,VERIFIED
+CUST00053,Kavya Dua,1992-06-17,fbhavsar@example.org,2809885165,Premium,Faridabad,Jharkhand,PENDING
+CUST00054,Indira Chawla,1985-01-18,mohammedsubramaniam@example.org,1493689980,Retail,Bhopal,Goa,VERIFIED
+CUST00055,Dayamai Nori,1969-08-10,gollaluke@example.net,1836675254,Retail,Tezpur,Punjab,VERIFIED
+CUST00056,Charles Dugal,1956-06-07,bumbanita@example.com,6438156149,Premium,Hajipur,Sikkim,PENDING
+CUST00057,Chakradev Kannan,1972-08-14,amblesamarth@example.com,5107622683,Senior Citizen,Madurai,Madhya Pradesh,VERIFIED
+CUST00058,Rajata Bahl,1977-01-03,munshipushti@example.net,6052975161,Student,Junagadh,Odisha,PENDING
+CUST00059,Farhan Randhawa,2004-12-17,harinakshi35@example.org,8355231243,Senior Citizen,Madanapalle,Chhattisgarh,PENDING
+CUST00060,Peter Tak,1977-04-17,onaidu@example.com,7449058147,Senior Citizen,Agra,Arunachal Pradesh,VERIFIED
+CUST00061,Bhavini Bose,1989-08-04,tripathileena@example.com,5978207151,Senior Citizen,Thane,Haryana,VERIFIED
+CUST00062,Reva Viswanathan,1981-04-17,janujapradhan@example.com,0515186449,Retail,Thoothukudi,Assam,VERIFIED
+CUST00063,Inaya Mukherjee,1990-05-14,mdayal@example.net,5281685054,Salary,Kakinada,Karnataka,VERIFIED
+CUST00064,Rehaan Kara,1955-01-31,farasmerchant@example.org,9622292706,Salary,Patiala,Manipur,PENDING
+CUST00065,Saumya Kaur,1982-01-22,dayamaisingh@example.org,4688623924,Premium,Ongole,West Bengal,PENDING
+CUST00066,Harshil Varty,2003-08-23,manefiyaz@example.org,6137506068,Retail,Noida,Madhya Pradesh,VERIFIED
+CUST00067,Kavya Kapur,1947-08-22,hardik52@example.org,7790104328,Senior Citizen,Bhubaneswar,Tripura,VERIFIED
+CUST00068,Wazir Mitra,1954-01-05,khareoni@example.net,9808932460,Senior Citizen,New Delhi,Odisha,VERIFIED
+CUST00069,Rachit Chada,1981-05-06,ekansh88@example.net,6540515319,Salary,Guntur,Arunachal Pradesh,VERIFIED
+CUST00070,Hamsini Gill,2002-03-25,osrinivas@example.org,4303054868,Premium,Nizamabad,Arunachal Pradesh,VERIFIED
+CUST00071,Bhavika Parikh,2004-05-22,narulaanjali@example.org,6527758416,Premium,Chinsurah,Punjab,VERIFIED
+CUST00072,Chaaya Nagi,1952-09-14,narangchakrika@example.com,7570596401,Senior Citizen,Bharatpur,Mizoram,VERIFIED
+CUST00073,Azaan Dhar,2003-06-22,ibanerjee@example.org,9092755719,Student,Bettiah,Kerala,VERIFIED
+CUST00074,Dipta Mallick,1962-09-16,balquincy@example.com,4739473121,Retail,Malegaon,Tamil Nadu,VERIFIED
+CUST00075,Gagan Nagarajan,1991-03-03,dhruv88@example.com,8313237058,Salary,Bhind,Uttar Pradesh,VERIFIED
+CUST00076,Gabriel Bhatti,1966-10-08,hsrinivas@example.com,5177852892,Retail,Bhiwani,Mizoram,VERIFIED
+CUST00077,Jeet Vasa,1956-02-19,nitesh25@example.net,1438424981,Senior Citizen,Guntakal,Odisha,VERIFIED
+CUST00078,Onveer Nazareth,2003-01-21,balakrishnanfinn@example.org,9078447364,Retail,Srinagar,Tamil Nadu,PENDING
+CUST00079,Nakul Sarraf,1974-01-02,nshetty@example.com,6258815371,Retail,Hospet,Haryana,VERIFIED
+CUST00080,Gunbir Bedi,1965-06-21,psahota@example.org,2787747016,Premium,New Delhi,Gujarat,PENDING
+CUST00081,Chanakya Bedi,1964-11-13,ssinghal@example.net,4565060983,Senior Citizen,Begusarai,Jharkhand,VERIFIED
+CUST00082,Libni Thaman,1976-05-14,jagat21@example.com,2398680002,Salary,Bhalswa Jahangir Pur,Mizoram,PENDING
+CUST00083,Manthan Varma,1955-03-27,eiravati26@example.net,8879470551,Premium,Ballia,Jharkhand,VERIFIED
+CUST00084,Urvi Lanka,1990-05-02,charansrinivasan@example.org,9130756263,Salary,Orai,Tripura,PENDING
+CUST00085,David Devi,1981-01-06,ektasridhar@example.net,8585497334,Salary,Kamarhati,Jharkhand,PENDING
+CUST00086,Sarthak Suresh,1967-04-19,jpalla@example.net,8665240415,Senior Citizen,Bardhaman,Telangana,PENDING
+CUST00087,Tanish Jaggi,2002-01-23,anita21@example.net,3301657120,Retail,Vellore,Rajasthan,VERIFIED
+CUST00088,Vansha Iyengar,1997-02-28,ekani40@example.org,6206724004,Premium,Thanjavur,Jharkhand,VERIFIED
+CUST00089,Wakeeta Desai,2003-08-21,mmahajan@example.org,2054932966,Salary,Chandigarh,Madhya Pradesh,VERIFIED
+CUST00090,Qasim Dey,1978-03-19,yuvraj04@example.com,4990453017,Senior Citizen,Kozhikode,Madhya Pradesh,VERIFIED
+CUST00091,Jacob Merchant,1970-09-25,theodoredeol@example.com,6878339187,Senior Citizen,Solapur,Odisha,VERIFIED
+CUST00092,David Tiwari,1959-06-24,niteshnarang@example.net,7187072867,Retail,Karaikudi,Manipur,VERIFIED
+CUST00093,Anthony Randhawa,1963-01-14,kamdarelijah@example.org,0170462265,Retail,Sultan Pur Majra,West Bengal,VERIFIED
+CUST00094,Keya Buch,1992-03-07,ijayadani@example.org,0047868633,Retail,Sri Ganganagar,Chhattisgarh,VERIFIED
+CUST00095,Ranbir Chowdhury,1947-11-30,pbabu@example.org,7903067383,Salary,Kolhapur,Mizoram,VERIFIED
+CUST00096,Vivaan Nagar,1985-01-07,warjas42@example.net,0892687056,Senior Citizen,Erode,Maharashtra,VERIFIED
+CUST00097,Charita Puri,1958-03-27,okhosla@example.com,6688263435,Salary,Hospet,West Bengal,PENDING
+CUST00098,George Wason,1995-01-11,charanloyal@example.com,8373540331,Premium,Latur,Tamil Nadu,VERIFIED
+CUST00099,Mekhala Khatri,1983-04-17,barkha67@example.net,8771753556,Senior Citizen,Phusro,West Bengal,PENDING
+CUST00100,Madhav Babu,1963-06-20,jmerchant@example.org,3785477725,Premium,Kolhapur,Telangana,PENDING
+CUST00101,Qarin Bhargava,1981-05-17,bordechanakya@example.org,2038750997,Student,Pune,Andhra Pradesh,VERIFIED
+CUST00102,Advik Badal,1981-09-30,bhavini08@example.net,8233984546,Retail,Dindigul,Madhya Pradesh,VERIFIED
+CUST00103,Yagnesh Kara,1966-02-18,balaygirik@example.com,0021765918,Student,Berhampur,Gujarat,VERIFIED
+CUST00104,Anika Batra,2008-08-11,mandbachittar@example.org,2614293968,Student,Yamunanagar,Tripura,PENDING
+CUST00105,Farhan Tella,1996-06-13,chatresh16@example.org,9650477358,Student,Bhiwani,Goa,VERIFIED
+CUST00106,Frederick Merchant,2000-01-11,ethanbutala@example.com,5511047541,Retail,Chandigarh,Goa,VERIFIED
+CUST00107,Saumya Vala,1973-06-27,balgaurav@example.com,6046618398,Student,Nadiad,Goa,VERIFIED
+CUST00108,Amruta Mitra,1963-12-27,edhingra@example.org,7154379937,Retail,Bhavnagar,Jharkhand,VERIFIED
+CUST00109,Meghana Natarajan,2002-12-29,cnarayan@example.com,5937526547,Premium,Anantapur,Madhya Pradesh,VERIFIED
+CUST00110,Maya Patla,1953-06-21,pranitbala@example.net,1672434266,Senior Citizen,Sultan Pur Majra,Punjab,PENDING
+CUST00111,Nandini Warrior,1980-03-12,ybansal@example.com,2909656101,Premium,Korba,Mizoram,PENDING
+CUST00112,Sanaya Prasad,1972-05-03,jtella@example.com,6112545738,Premium,Karnal,Meghalaya,VERIFIED
+CUST00113,Raksha Sethi,1967-06-04,mitalchaitanya@example.net,2382825867,Student,Machilipatnam,Rajasthan,VERIFIED
+CUST00114,Quincy Sankaran,1972-08-22,horashivani@example.net,3419182553,Retail,Raipur,Himachal Pradesh,PENDING
+CUST00115,Dhriti Rama,1987-04-28,wcomar@example.com,9912513412,Senior Citizen,Ajmer,Mizoram,VERIFIED
+CUST00116,Omya Devi,1984-11-01,lsampath@example.com,4225790507,Retail,Jammu,Uttarakhand,VERIFIED
+CUST00117,Yashasvi Talwar,1973-07-25,tsagar@example.com,0340438427,Retail,Jamalpur,Mizoram,VERIFIED
+CUST00118,Ishaan Loyal,1998-06-20,benjamin78@example.org,0745171339,Premium,Phagwara,Rajasthan,PENDING
+CUST00119,Noah Dewan,1999-02-17,samuelbhargava@example.net,8254494812,Student,Allahabad,Himachal Pradesh,PENDING
+CUST00120,Kevin Krish,1955-09-03,yug67@example.org,1168457759,Premium,Tiruchirappalli,Telangana,PENDING
+CUST00121,Ishita Bhatnagar,1999-11-13,bkamdar@example.org,5892975001,Retail,Pune,Bihar,VERIFIED
+CUST00122,Ridhi Shan,1945-10-07,sjain@example.org,5415206436,Student,Bareilly,Andhra Pradesh,VERIFIED
+CUST00123,Vansha Brahmbhatt,1954-10-02,zilmilsaxena@example.org,2713611155,Student,Durgapur,Madhya Pradesh,VERIFIED
+CUST00124,Luke Biswas,1981-10-27,galaria@example.com,7311219656,Student,Kolhapur,Haryana,VERIFIED
+CUST00125,Frado Kothari,1983-05-19,avi43@example.net,3761379180,Student,Ratlam,Chhattisgarh,PENDING
+CUST00126,Osha Pau,1982-11-25,urishillabora@example.org,0068486661,Premium,Alwar,Assam,VERIFIED
+CUST00127,Farhan Vaidya,2008-05-22,nachiketyadav@example.com,6303161799,Salary,Tirupati,Sikkim,VERIFIED
+CUST00128,Jagdish Arora,1993-11-22,advaygade@example.com,2524105648,Retail,Firozabad,Tamil Nadu,VERIFIED
+CUST00129,Watika Shah,1980-06-24,christopher79@example.org,9138000307,Salary,Yamunanagar,Chhattisgarh,VERIFIED
+CUST00130,Balendra Saini,1960-12-31,yuvraj65@example.com,8023806174,Retail,Khammam,Assam,PENDING
+CUST00131,Abhiram Pillay,1959-05-18,daksha93@example.com,8320603850,Senior Citizen,Mumbai,Tripura,VERIFIED
+CUST00132,Damyanti Chawla,1959-09-08,oniswamy@example.org,3865719182,Retail,Aurangabad,Odisha,VERIFIED
+CUST00133,Radhika De,1961-10-31,advika56@example.net,3132912127,Premium,Satara,Maharashtra,VERIFIED
+CUST00134,Ishita Johal,1976-06-22,ubika41@example.org,3521356804,Senior Citizen,Akola,Andhra Pradesh,VERIFIED
+CUST00135,Sneha Krish,1952-03-02,zchaudry@example.org,2365199410,Premium,Davanagere,Rajasthan,PENDING
+CUST00136,Kabir Chanda,2007-04-24,jason07@example.org,7066253244,Retail,Jalgaon,Arunachal Pradesh,VERIFIED
+CUST00137,Chakrika Tara,1973-10-04,fbhat@example.com,8380657875,Senior Citizen,Munger,Himachal Pradesh,VERIFIED
+CUST00138,Atharv Nagar,1986-05-10,ayushmanmand@example.org,3213348039,Senior Citizen,Raichur,Uttarakhand,VERIFIED
+CUST00139,Patrick Khalsa,1986-01-16,jagrati90@example.net,9378427010,Student,Madanapalle,Haryana,VERIFIED
+CUST00140,Vanya Acharya,1968-04-18,kalpitoak@example.net,2921851569,Salary,Naihati,Jharkhand,VERIFIED
+CUST00141,Laban Dugar,1995-07-23,psur@example.com,3926442209,Salary,Tezpur,Arunachal Pradesh,VERIFIED
+CUST00142,Eesha Kant,1989-04-01,tanejalohit@example.com,2157043315,Salary,Moradabad,Telangana,PENDING
+CUST00143,Chanakya Raju,1975-07-18,aganesan@example.com,1793271040,Premium,Bhilwara,Bihar,VERIFIED
+CUST00144,Hema Garde,2006-02-22,udyal@example.org,7062962015,Student,Jhansi,Maharashtra,VERIFIED
+CUST00145,Baghyawati Mishra,1961-11-20,bawamaya@example.net,0614973103,Retail,Jalna,Assam,VERIFIED
+CUST00146,Jack Morar,1999-02-18,fsinha@example.net,2565270477,Student,Kamarhati,Uttarakhand,VERIFIED
+CUST00147,David Dora,1996-11-28,chadahemangini@example.net,0686879374,Retail,Tenali,West Bengal,VERIFIED
+CUST00148,Yadavi Varughese,2000-03-11,jaisen@example.org,0616329451,Senior Citizen,Munger,Nagaland,VERIFIED
+CUST00149,Eshana Majumdar,1981-01-31,yarora@example.net,2999119148,Premium,Bulandshahr,Himachal Pradesh,VERIFIED
+CUST00150,Vedika Solanki,1948-04-09,anyarau@example.org,3074505444,Retail,Navi Mumbai,West Bengal,VERIFIED
+CUST00151,Krish Mital,1996-05-01,rnagi@example.net,7367850821,Salary,Guna,Madhya Pradesh,VERIFIED
+CUST00152,Ayush Ghose,1958-11-03,dalbirkrish@example.org,4578610357,Premium,Belgaum,West Bengal,PENDING
+CUST00153,Inaya Padmanabhan,1956-11-06,gautam40@example.com,3334680072,Senior Citizen,Ghaziabad,Uttar Pradesh,VERIFIED
+CUST00154,Udarsh Krishnan,1987-02-13,anvi66@example.com,4896910858,Senior Citizen,Bihar Sharif,Sikkim,VERIFIED
+CUST00155,Vasatika Bhatt,1968-08-09,ekta44@example.net,3096520744,Senior Citizen,Machilipatnam,Madhya Pradesh,VERIFIED
+CUST00156,Ranveer Oza,1995-03-01,vamakshiparmer@example.net,4172482513,Retail,Rajahmundry,Telangana,VERIFIED
+CUST00157,Osha Narula,1971-01-06,chaitaly71@example.com,1738168460,Salary,Durgapur,Gujarat,VERIFIED
+CUST00158,Nimrat Shankar,1955-06-20,pranit17@example.com,7432927129,Retail,Haldia,Madhya Pradesh,VERIFIED
+CUST00159,Vansha Rajagopal,1946-01-15,wallaryan@example.net,3003354216,Salary,Rourkela,Assam,VERIFIED
+CUST00160,Chanchal Mannan,1976-09-30,radha25@example.com,0332309821,Senior Citizen,Agra,Madhya Pradesh,VERIFIED
+CUST00161,Chanakya Bava,1990-10-08,bahrichanakya@example.net,1847230461,Salary,Medininagar,Tamil Nadu,VERIFIED
+CUST00162,Omya Cheema,1980-07-14,mandalishaan@example.org,4835642087,Salary,Ongole,Karnataka,PENDING
+CUST00163,Aarnav Arya,1991-06-05,choudhrywakeeta@example.org,4374470120,Salary,Karimnagar,Uttar Pradesh,VERIFIED
+CUST00164,Pooja D’Alia,1952-03-09,andralakshit@example.net,9415521667,Retail,Kharagpur,Tamil Nadu,PENDING
+CUST00165,Oviya Ganesan,1953-06-01,danieldutta@example.org,7296590277,Salary,Bulandshahr,Manipur,VERIFIED
+CUST00166,Dev Lal,1990-04-17,advik89@example.net,9163756289,Retail,Hyderabad,Rajasthan,VERIFIED
+CUST00167,Yashasvi Singh,2003-09-10,egandhi@example.com,0838663177,Premium,Hubli–Dharwad,West Bengal,VERIFIED
+CUST00168,Sanya Mutti,1953-10-19,gbadami@example.com,0199488375,Premium,Meerut,Uttarakhand,PENDING
+CUST00169,Suhani Narula,1983-11-03,tpatla@example.com,5548851027,Senior Citizen,Alappuzha,Bihar,PENDING
+CUST00170,Rohan Guha,1953-12-09,dkale@example.org,9177982708,Senior Citizen,Begusarai,Maharashtra,VERIFIED
+CUST00171,Yashoda Goel,1992-10-19,kabirchawla@example.com,9346547226,Retail,Motihari,West Bengal,VERIFIED
+CUST00172,Teerth Iyer,1959-12-29,hemani22@example.net,7996846081,Premium,Eluru,Chhattisgarh,VERIFIED
+CUST00173,Daksh Iyengar,1963-11-21,bhavinikrishna@example.org,0571983863,Salary,Nashik,Madhya Pradesh,VERIFIED
+CUST00174,Omaja Munshi,1983-04-18,aryazayan@example.org,8933472122,Student,Burhanpur,Arunachal Pradesh,VERIFIED
+CUST00175,Arya Lalla,1954-07-28,aadhyaahluwalia@example.com,5909479851,Retail,Hajipur,Haryana,VERIFIED
+CUST00176,Ekansh Tiwari,1956-07-26,zyadav@example.org,5543987801,Salary,Amroha,Haryana,VERIFIED
+CUST00177,Balveer Nagi,1971-09-04,rajuaahana@example.net,8877043581,Salary,Rourkela,Tripura,VERIFIED
+CUST00178,Dominic Kade,1991-05-04,paninichawla@example.org,7501102481,Premium,Rampur,Maharashtra,VERIFIED
+CUST00179,Shravya Ravel,1975-03-10,anay61@example.net,0158144914,Salary,Eluru,Madhya Pradesh,PENDING
+CUST00180,Urvi Dugar,1982-01-09,labanraman@example.net,0882100996,Senior Citizen,Farrukhabad,Gujarat,VERIFIED
+CUST00181,Siddharth Sachar,2007-05-08,naveengour@example.org,9087814141,Premium,Amaravati,Meghalaya,VERIFIED
+CUST00182,Ishanvi Dave,1991-05-28,harishmane@example.net,7594929955,Premium,Gulbarga,Andhra Pradesh,PENDING
+CUST00183,Yatin Kant,1994-03-09,xmalhotra@example.org,5478129142,Retail,Firozabad,Telangana,VERIFIED
+CUST00184,Faqid Bahl,2003-07-15,ravelsimon@example.org,2563942788,Salary,Sikar,Kerala,PENDING
+CUST00185,William Gandhi,1997-04-01,sanayadutta@example.org,3731453038,Premium,Munger,Meghalaya,VERIFIED
+CUST00186,Chakradhar Baral,1989-11-08,harshil84@example.net,2665918463,Premium,Nagercoil,Uttarakhand,VERIFIED
+CUST00187,Vidhi Subramaniam,2006-02-03,thakerliam@example.com,4322259136,Student,Raipur,Meghalaya,VERIFIED
+CUST00188,Varenya Kade,1985-12-04,nirjabains@example.org,2280920242,Student,Khora ,Odisha,VERIFIED
+CUST00189,Bhanumati Chada,1960-06-17,esinha@example.org,9298425799,Premium,Berhampur,Madhya Pradesh,PENDING
+CUST00190,Kevin Chopra,1946-11-06,yaminisaini@example.org,9088117298,Salary,Chinsurah,Mizoram,VERIFIED
+CUST00191,Kamala Bassi,1993-03-13,zkarnik@example.com,1624731498,Premium,Bardhaman,Gujarat,VERIFIED
+CUST00192,Abhimanyu Virk,1953-09-27,prashadsamesh@example.net,2694486959,Retail,Sikar,Tripura,VERIFIED
+CUST00193,Odika Subramanian,1957-11-19,veda44@example.net,3721386589,Student,Nanded,Madhya Pradesh,VERIFIED
+CUST00194,Gavin Dhillon,1977-10-26,echakrabarti@example.com,0669849027,Salary,Hyderabad,Gujarat,VERIFIED
+CUST00195,Robert Bandi,1999-01-26,omkaarbanik@example.com,4656693801,Salary,Jamalpur,Jharkhand,VERIFIED
+CUST00196,Idika Malhotra,1961-02-13,suhaniraval@example.net,8181845184,Senior Citizen,Mango,Madhya Pradesh,PENDING
+CUST00197,Yagnesh Nori,1998-07-02,lsharma@example.org,6335658804,Senior Citizen,Tumkur,Assam,VERIFIED
+CUST00198,Hema Borra,1983-06-17,vamakshimurthy@example.com,3733343333,Retail,Bhatpara,Tripura,VERIFIED
+CUST00199,Jagdish Brar,1991-09-17,wahuja@example.net,5794728463,Salary,Meerut,Mizoram,VERIFIED
+CUST00200,Vanya Zachariah,1947-12-09,meera27@example.org,3691559428,Senior Citizen,Patiala,Himachal Pradesh,VERIFIED
+CUST00201,Hemal Pau,1958-03-28,nsamra@example.com,7292931438,Retail,Eluru,Gujarat,VERIFIED
+CUST00202,Mason Solanki,2000-07-18,godaoviya@example.com,7448906120,Senior Citizen,Rohtak,Meghalaya,PENDING
+CUST00203,Shivani Natt,1963-05-26,jagvi88@example.com,5939982455,Salary,Amroha,Assam,VERIFIED
+CUST00204,Bhavini Sheth,1988-09-16,olivernazareth@example.com,5355449647,Student,Dharmavaram,Mizoram,VERIFIED
+CUST00205,Odika Ganesh,1958-03-27,dasswahab@example.net,6111780068,Student,Vasai-Virar,Himachal Pradesh,VERIFIED
+CUST00206,Frado Ramakrishnan,1966-10-10,yugmander@example.com,0055778487,Salary,Panvel,Goa,VERIFIED
+CUST00207,Radhika Viswanathan,1989-04-04,idika78@example.org,6424008254,Student,Deoghar,Andhra Pradesh,VERIFIED
+CUST00208,Vansha Mistry,1946-05-05,mmaster@example.org,6866326634,Senior Citizen,Bhusawal,Rajasthan,VERIFIED
+CUST00209,Zansi Magar,1965-02-03,nitara31@example.org,9749735020,Salary,Gaya,Bihar,PENDING
+CUST00210,Amruta Dass,1994-05-23,oanand@example.org,5647570512,Retail,Shimoga,Tripura,VERIFIED
+CUST00211,Ekbal Singhal,1958-01-29,zashilraj@example.org,3037183764,Senior Citizen,Kozhikode,Rajasthan,VERIFIED
+CUST00212,Jason Kulkarni,1978-06-21,rushil50@example.net,5024916300,Retail,Kavali,Chhattisgarh,VERIFIED
+CUST00213,Gaurav Kothari,1956-06-14,rchand@example.net,2812735857,Senior Citizen,Jaipur,Tamil Nadu,VERIFIED
+CUST00214,Ishita Desai,1962-10-13,sundaramraksha@example.net,9285574982,Student,Bettiah,Chhattisgarh,VERIFIED
+CUST00215,Chakrika Lall,1982-07-30,sudiksha08@example.com,9351863878,Student,Pudukkottai,Jharkhand,VERIFIED
+CUST00216,Nimrat Nagy,1953-03-28,virkekalinga@example.org,1731096789,Senior Citizen,Dhanbad,Kerala,VERIFIED
+CUST00217,Ekavir Arya,2008-05-25,vyanjanabuch@example.com,5094801413,Premium,Salem,Telangana,PENDING
+CUST00218,Lekha Gupta,1958-11-12,praneelsagar@example.net,6122868528,Student,Nagercoil,Karnataka,VERIFIED
+CUST00219,Kamya Sachar,1997-09-21,mnaik@example.org,5776004908,Senior Citizen,Barasat,Andhra Pradesh,VERIFIED
+CUST00220,Tristan Kala,2003-12-15,anthony48@example.net,5224593344,Student,Aurangabad,Madhya Pradesh,VERIFIED
+CUST00221,Faras Nair,1999-09-05,fghose@example.net,9610556613,Salary,Eluru,Arunachal Pradesh,VERIFIED
+CUST00222,Benjamin Nagar,1982-06-19,etathakkar@example.net,7998136462,Premium,Naihati,Assam,PENDING
+CUST00223,Chandran Rastogi,1963-08-03,rastogiyachana@example.com,3769389833,Senior Citizen,Shimoga,Tripura,VERIFIED
+CUST00224,Ekiya Chakraborty,1953-05-18,xsampath@example.com,0425979270,Student,Kollam,Sikkim,PENDING
+CUST00225,Nachiket Chada,1953-05-15,kibemanbir@example.com,7705383388,Student,Motihari,Meghalaya,VERIFIED
+CUST00226,Andrew Puri,1985-05-24,kumeronkar@example.org,0701645104,Senior Citizen,Ahmednagar,Madhya Pradesh,PENDING
+CUST00227,Diya Sundaram,2004-09-14,grewalrushil@example.net,3845762055,Premium,Barasat,Haryana,VERIFIED
+CUST00228,David Kurian,2005-07-07,jbalan@example.com,2168936392,Salary,Bijapur,Punjab,VERIFIED
+CUST00229,Saumya Deep,1959-10-16,samakshdevi@example.com,2518812520,Retail,Haridwar,Maharashtra,VERIFIED
+CUST00230,Saanvi Mahal,1956-01-23,hredhaandeep@example.org,9993933051,Salary,Guntur,Mizoram,VERIFIED
+CUST00231,Kashvi Gour,2003-09-16,eswamy@example.org,6046333127,Premium,Anantapur,West Bengal,VERIFIED
+CUST00232,Yatin Sane,1973-04-10,raidhriti@example.com,7038860868,Retail,Jhansi,Jharkhand,VERIFIED
+CUST00233,Mitali Modi,1998-05-15,triya26@example.com,7181298266,Premium,Hospet,Andhra Pradesh,PENDING
+CUST00234,Sudiksha Jaggi,2005-10-11,qchana@example.com,7518689268,Senior Citizen,Varanasi,Tripura,VERIFIED
+CUST00235,Gautami Doctor,1956-10-02,praneelbehl@example.com,2123094077,Student,Tinsukia,Uttar Pradesh,PENDING
+CUST00236,Wakeeta Khanna,1960-06-24,asetty@example.com,3849830220,Senior Citizen,Vadodara,Chhattisgarh,VERIFIED
+CUST00237,Chanchal Narula,2008-05-09,bawaikbal@example.com,9982795014,Student,Arrah,Madhya Pradesh,PENDING
+CUST00238,Prisha Bhattacharyya,1965-08-25,hdesai@example.net,8339019817,Student,Purnia,Punjab,VERIFIED
+CUST00239,Aashi Vora,1984-11-10,kai99@example.com,3430107139,Premium,Haridwar,Arunachal Pradesh,VERIFIED
+CUST00240,Inaya Kala,1946-06-28,baghyawatikumar@example.org,5015569902,Retail,Bathinda,Uttarakhand,PENDING
+CUST00241,Varenya Som,1999-12-22,deshpandevasatika@example.org,6084958803,Premium,Raichur,Assam,VERIFIED
+CUST00242,Avni Balasubramanian,1968-10-19,kwarrior@example.net,4504617357,Senior Citizen,Thrissur,Mizoram,PENDING
+CUST00243,Parth Choudhury,1971-03-10,jaggigeorge@example.com,3578452182,Retail,Vadodara,Manipur,VERIFIED
+CUST00244,Jack Agrawal,1966-11-19,chahalgauri@example.com,0943533448,Retail,Gandhidham,Sikkim,PENDING
+CUST00245,Anjali Dixit,1956-06-09,ishwar09@example.net,8542493214,Premium,Panvel,Manipur,PENDING
+CUST00246,Kalpit Balakrishnan,1977-10-03,cherianleela@example.org,9979545381,Senior Citizen,Tezpur,Chhattisgarh,VERIFIED
+CUST00247,Upadhriti Chatterjee,1976-09-21,udyati73@example.org,6255770171,Student,Nangloi Jat,Manipur,PENDING
+CUST00248,Barkha Pall,1986-11-08,yashodachauhan@example.com,4876963938,Senior Citizen,Ongole,Madhya Pradesh,PENDING
+CUST00249,Harini Joshi,2001-02-08,ksaran@example.com,7199758172,Premium,Machilipatnam,Assam,PENDING
+CUST00250,Ladli Narang,1979-05-11,chanateerth@example.org,8469973354,Student,Raebareli,Tamil Nadu,VERIFIED
+CUST00251,Gaurav Anand,1987-05-02,sdatta@example.org,8514036965,Premium,Machilipatnam,Madhya Pradesh,VERIFIED
+CUST00252,Siddharth Ghose,1978-01-13,raghavrajagopalan@example.com,2010276212,Senior Citizen,Sirsa,Uttar Pradesh,PENDING
+CUST00253,Pranit Sha,1980-05-21,ysengupta@example.com,0973846895,Premium,Agra,Odisha,VERIFIED
+CUST00254,Jyoti Chowdhury,1985-03-17,jbuch@example.net,8913718949,Student,Tiruvottiyur,Nagaland,VERIFIED
+CUST00255,Upasna Setty,1980-08-10,anarula@example.com,9494079290,Salary,Indore,Jharkhand,VERIFIED
+CUST00256,Fitan Date,1980-02-16,mallzayyan@example.org,1929275243,Salary,Bokaro,Uttar Pradesh,VERIFIED
+CUST00257,Hemal Chad,1955-08-05,warhisachar@example.com,9504102767,Salary,Fatehpur,Telangana,VERIFIED
+CUST00258,Ladli Ramakrishnan,1978-01-06,maanav86@example.org,8018569454,Premium,Navi Mumbai,Himachal Pradesh,VERIFIED
+CUST00259,Triya Khurana,1995-09-10,zinalnazareth@example.net,0106181753,Premium,Chandrapur,Gujarat,PENDING
+CUST00260,Arjun Chanda,1949-08-04,jairajdar@example.org,1244717465,Premium,Nanded,Tripura,VERIFIED
+CUST00261,Aradhana Bhatia,1971-10-09,dnatarajan@example.com,7396271286,Retail,Srikakulam,Rajasthan,PENDING
+CUST00262,Riya Lad,1952-10-01,boraekavir@example.net,2006425690,Student,Morena,Maharashtra,VERIFIED
+CUST00263,Ekaraj Zachariah,1961-02-02,rajagopalanvasatika@example.org,0158517432,Senior Citizen,Yamunanagar,Sikkim,PENDING
+CUST00264,Chandani Ramakrishnan,2006-09-22,parmervidhi@example.org,3093761847,Student,Pune,Arunachal Pradesh,VERIFIED
+CUST00265,Daksh Nazareth,1999-05-01,ravijagat@example.org,3102707903,Premium,Kanpur,Goa,PENDING
+CUST00266,Damyanti Chatterjee,1976-10-06,devanshcherian@example.org,1365651982,Student,Kakinada,Tripura,VERIFIED
+CUST00267,Oscar Nayak,1950-01-09,mahallohit@example.com,7390219620,Senior Citizen,Jodhpur,Andhra Pradesh,PENDING
+CUST00268,Praneel Chakraborty,1993-10-25,omaja72@example.org,6329092791,Student,Karnal,Maharashtra,VERIFIED
+CUST00269,Warinder Handa,1953-09-19,pathakyashica@example.org,3127722005,Salary,Bhagalpur,Maharashtra,VERIFIED
+CUST00270,Gaurika Setty,1948-09-01,benpatrick@example.org,1379956353,Student,Anantapur,Haryana,PENDING
+CUST00271,Warjas Sachar,2004-12-01,keyakannan@example.org,6239726527,Senior Citizen,Secunderabad,Himachal Pradesh,VERIFIED
+CUST00272,Gautami Datta,1947-11-27,mandlaban@example.org,5349292983,Student,Bulandshahr,West Bengal,VERIFIED
+CUST00273,Tarak Solanki,2002-09-05,amallick@example.net,6939290600,Salary,Dibrugarh,Arunachal Pradesh,PENDING
+CUST00274,Meera Srinivas,2000-10-27,sethiwarhi@example.org,3254310742,Student,Aurangabad,Telangana,VERIFIED
+CUST00275,Suhani Sheth,1998-03-31,nidragoyal@example.com,5804649893,Student,Udupi,Karnataka,VERIFIED
+CUST00276,Yutika Patla,2006-02-23,choudhryleela@example.com,5281832538,Student,Morena,Telangana,VERIFIED
+CUST00277,Umang Nagi,1969-09-21,yahvi64@example.org,7881788479,Student,Amritsar,Gujarat,VERIFIED
+CUST00278,Gagan Buch,1972-04-22,bhavyabose@example.org,7238046827,Senior Citizen,Bidar,Manipur,VERIFIED
+CUST00279,Bishakha Gulati,1950-01-02,katazinal@example.net,5798877492,Student,Tirunelveli,Uttar Pradesh,VERIFIED
+CUST00280,Utkarsh Sule,1971-01-11,champak25@example.com,8422223105,Retail,Gandhidham,Himachal Pradesh,PENDING
+CUST00281,Qarin Jha,1983-12-31,nadighemangini@example.org,8410672752,Premium,Bongaigaon,Mizoram,PENDING
+CUST00282,Chakrika Som,2006-09-10,manan97@example.com,8140693751,Premium,Pimpri-Chinchwad,Punjab,VERIFIED
+CUST00283,Tristan Mall,1959-01-15,chackosanaya@example.net,7599805626,Salary,Kharagpur,Kerala,PENDING
+CUST00284,Bhavani Pai,1969-08-18,sanaya81@example.org,2662991234,Salary,Loni,Karnataka,VERIFIED
+CUST00285,Keya Chakrabarti,1946-03-04,amahajan@example.org,2648704947,Student,Rajahmundry,Andhra Pradesh,VERIFIED
+CUST00286,Mitesh Lala,1966-02-23,pdash@example.net,3014719597,Salary,Rampur,Rajasthan,PENDING
+CUST00287,Jagdish Prakash,1980-08-06,ladnicholas@example.net,2520456504,Salary,Bettiah,Rajasthan,PENDING
+CUST00288,Yoshita Hari,1997-11-17,girindraganesh@example.net,5189520284,Salary,Shivpuri,Maharashtra,VERIFIED
+CUST00289,Nicholas Chaudry,1960-07-19,yahvikant@example.org,1207545279,Student,Malegaon,Tamil Nadu,VERIFIED
+CUST00290,Ayush Dani,1960-11-07,luckykaran@example.com,6110760310,Senior Citizen,Nandyal,Bihar,VERIFIED
+CUST00291,Caleb Bhatti,1966-04-01,charjatin@example.net,5012495528,Salary,Dibrugarh,Odisha,VERIFIED
+CUST00292,Hardik Atwal,1981-09-16,rehaanmanda@example.org,7592712566,Retail,Kottayam,Haryana,VERIFIED
+CUST00293,Isaiah Murthy,1954-02-18,hchoudhary@example.org,0157164794,Retail,Kamarhati,Nagaland,VERIFIED
+CUST00294,Bina Sangha,1958-07-27,sonijhalak@example.org,7811266912,Premium,Bharatpur,Gujarat,VERIFIED
+CUST00295,Sai Raval,1954-01-28,paninitata@example.com,9678427114,Senior Citizen,Mehsana,Haryana,VERIFIED
+CUST00296,Ayushman Chaudhary,1995-12-06,birwishi@example.net,5249911877,Premium,Durg,Sikkim,VERIFIED
+CUST00297,Vritti Thaman,1963-07-12,andrew06@example.org,7700284276,Student,Bijapur,Tamil Nadu,VERIFIED
+CUST00298,Vinaya Choudhary,1984-06-06,kzacharia@example.com,0647969545,Senior Citizen,Bhopal,Odisha,VERIFIED
+CUST00299,Kabir Peri,1969-06-18,omlajita@example.org,5033349114,Student,Naihati,Goa,VERIFIED
+CUST00300,Eshana Barad,1977-01-31,avarma@example.com,5696591713,Salary,Mehsana,Mizoram,VERIFIED
+CUST00301,Ojas Mistry,1970-06-12,fjaggi@example.net,4049639191,Senior Citizen,Darbhanga,Assam,VERIFIED
+CUST00302,Prisha Kadakia,1969-05-10,mittalyamini@example.com,6649878208,Premium,Gangtok,Meghalaya,VERIFIED
+CUST00303,Unni Loyal,1989-02-17,hbhasin@example.org,2466513644,Retail,Bardhaman,Sikkim,VERIFIED
+CUST00304,Nidra Khare,1953-06-13,rehaanbala@example.org,6603242044,Salary,Kalyan-Dombivli,Telangana,PENDING
+CUST00305,Anmol Bhakta,2004-03-20,murthychanchal@example.org,2319818984,Student,Mysore,Haryana,VERIFIED
+CUST00306,Dhriti Narayan,2002-05-12,bkeer@example.org,4764907851,Retail,Bongaigaon,Maharashtra,VERIFIED
+CUST00307,Yatin Mall,2005-07-26,jananisoman@example.net,0034864518,Retail,Mango,Madhya Pradesh,VERIFIED
+CUST00308,Maya Kumer,1966-03-13,keerchameli@example.org,0417765612,Senior Citizen,Guna,Assam,VERIFIED
+CUST00309,Osha Narain,1976-07-25,benqarin@example.net,3459112382,Senior Citizen,Imphal,Manipur,VERIFIED
+CUST00310,Kiaan Lad,1957-07-11,baghyawati31@example.com,9300893173,Salary,Gulbarga,Arunachal Pradesh,PENDING
+CUST00311,Pushti Lad,1955-11-17,pillaionkar@example.net,7713334476,Salary,Chinsurah,West Bengal,VERIFIED
+CUST00312,Tanveer Mandal,1995-03-05,omyagole@example.com,3973597107,Senior Citizen,North Dumdum,Tamil Nadu,VERIFIED
+CUST00313,Simon Rajagopal,1993-12-06,ekunda@example.org,7599004896,Retail,Tenali,Sikkim,PENDING
+CUST00314,Kevin Barman,1985-03-23,abhagara@example.net,1586241502,Student,Parbhani,Telangana,VERIFIED
+CUST00315,Qushi Mandal,2007-02-27,aishani85@example.com,8703203207,Student,Ujjain,Tamil Nadu,VERIFIED
+CUST00316,Rajata D’Alia,2006-08-21,cbaria@example.com,2151342284,Student,Ballia,Andhra Pradesh,VERIFIED
+CUST00317,Omaja Bose,1962-06-22,vchandra@example.org,9152017774,Student,Ozhukarai,Arunachal Pradesh,VERIFIED
+CUST00318,Ekta Dayal,1960-02-08,mandalekantika@example.org,1642361032,Senior Citizen,Sambhal,Jharkhand,VERIFIED
+CUST00319,Jai Misra,1979-02-15,rmukherjee@example.net,8377674996,Senior Citizen,Bhusawal,Uttar Pradesh,PENDING
+CUST00320,Quincy Saraf,1988-08-21,cchander@example.net,7881476174,Student,Warangal,Sikkim,PENDING
+CUST00321,Yuvraj Virk,1974-10-30,champak81@example.org,1794549180,Senior Citizen,Surendranagar Dudhrej,Goa,VERIFIED
+CUST00322,Maya Bath,1951-05-23,umishra@example.net,5232194168,Salary,Kolkata,Madhya Pradesh,VERIFIED
+CUST00323,Agastya Garg,1990-05-08,ssharma@example.com,5641220310,Retail,Indore,Gujarat,VERIFIED
+CUST00324,Maanav Khurana,1975-05-18,gabrielmitra@example.com,1227770793,Student,Durg,Odisha,VERIFIED
+CUST00325,Charan Nath,1946-04-04,sankaranojasvi@example.com,7899730806,Student,Begusarai,Assam,PENDING
+CUST00326,Omisha Solanki,1953-09-05,cpalan@example.net,3757383959,Salary,Mira-Bhayandar,Jharkhand,VERIFIED
+CUST00327,Omaja Parsa,1999-11-21,nedwin@example.org,2329716743,Student,Proddatur,Arunachal Pradesh,VERIFIED
+CUST00328,Jagrati Lal,1970-01-07,owenthakur@example.org,9318374550,Premium,Saharanpur,West Bengal,PENDING
+CUST00329,Chandresh Sarma,2000-02-03,gchoudhry@example.net,1213524787,Premium,Jamnagar,Rajasthan,VERIFIED
+CUST00330,Gaurika Devi,1954-02-02,revasagar@example.org,8214565328,Salary,Ambattur,Chhattisgarh,VERIFIED
+CUST00331,Odika Rout,2006-11-01,yvarty@example.net,0811556260,Salary,Vadodara,Sikkim,VERIFIED
+CUST00332,Dalbir Venkatesh,1965-11-05,rratti@example.net,4892673899,Senior Citizen,Hapur,Uttar Pradesh,VERIFIED
+CUST00333,Rudra Mitra,1951-06-16,yogigaurika@example.com,3188485200,Senior Citizen,New Delhi,Uttarakhand,VERIFIED
+CUST00334,Pahal Tiwari,1953-03-28,pradhanaashi@example.net,7490753998,Retail,Etawah,Jharkhand,VERIFIED
+CUST00335,Logan Purohit,1981-01-31,henrynarang@example.net,2661106273,Student,Solapur,Kerala,PENDING
+CUST00336,Zilmil Rana,2005-01-23,wishi67@example.net,8277288137,Senior Citizen,Patna,Telangana,VERIFIED
+CUST00337,Kala Dani,1986-08-29,hchoudhary@example.com,1545447022,Student,Nashik,Jharkhand,PENDING
+CUST00338,Tanveer Goswami,2001-06-18,hagate@example.net,7949756792,Student,Dibrugarh,Rajasthan,VERIFIED
+CUST00339,Shivani Sen,1955-11-10,gaurav99@example.com,8074120948,Retail,Karaikudi,Assam,VERIFIED
+CUST00340,Chatresh Vig,1958-08-11,bthakkar@example.org,3971895690,Premium,Lucknow,Karnataka,PENDING
+CUST00341,Pranit Sachdeva,1947-05-11,lavanya41@example.org,2241246209,Premium,Bokaro,Andhra Pradesh,VERIFIED
+CUST00342,Chanchal Ramakrishnan,1952-06-10,lucky65@example.com,3993788614,Senior Citizen,Ratlam,Manipur,VERIFIED
+CUST00343,Dominic Sule,1947-09-09,bkaur@example.com,4967183258,Student,Sambalpur,Nagaland,VERIFIED
+CUST00344,Siya Barman,1945-10-15,pmann@example.org,9465398402,Student,Dewas,Assam,VERIFIED
+CUST00345,Jason Dey,1995-01-23,rachana39@example.net,4355379502,Salary,Narasaraopet,Meghalaya,PENDING
+CUST00346,Aditya Ghose,1973-11-02,iramaswamy@example.org,1569562017,Salary,Nellore,Manipur,VERIFIED
+CUST00347,Timothy Bahri,1997-05-01,ishita31@example.net,5047930361,Salary,Jehanabad,Mizoram,VERIFIED
+CUST00348,Onkar Hari,1990-08-16,dhruvdave@example.net,3843089487,Retail,Purnia,Rajasthan,VERIFIED
+CUST00349,Ekantika Sankaran,2003-03-07,hmahal@example.net,0304687506,Salary,Thanjavur,Assam,VERIFIED
+CUST00350,Upkaar Sampath,1950-10-15,ronithgala@example.com,7609543173,Senior Citizen,Meerut,Uttarakhand,VERIFIED
+CUST00351,Zinal Khalsa,1950-09-07,ochandran@example.com,6512070496,Premium,Kota,Sikkim,VERIFIED
+CUST00352,Charles Menon,2003-07-24,gratti@example.net,0767699150,Student,Hazaribagh,Karnataka,VERIFIED
+CUST00353,Hritik Chauhan,1946-07-23,harijonathan@example.net,9723200249,Senior Citizen,Anand,Rajasthan,VERIFIED
+CUST00354,Deepa Dhingra,1955-10-02,mmore@example.com,9203880653,Retail,Panihati,Uttar Pradesh,VERIFIED
+CUST00355,Harita Gulati,1991-03-03,msibal@example.net,9465217073,Salary,Rajahmundry,Tamil Nadu,VERIFIED
+CUST00356,Unnati Kala,1961-12-26,znarula@example.net,0501508124,Salary,Jammu,Rajasthan,VERIFIED
+CUST00357,Caleb Balan,1959-04-10,bhanumatighosh@example.org,3230241026,Salary,Sonipat,Gujarat,VERIFIED
+CUST00358,Tanmayi Khatri,1970-11-16,onveer89@example.com,3386559630,Senior Citizen,Jorhat,Jharkhand,VERIFIED
+CUST00359,Falak Kota,1949-05-06,jonathan89@example.com,1286857872,Salary,Dindigul,Mizoram,VERIFIED
+CUST00360,Warda Som,1963-12-25,nbansal@example.org,3466925481,Retail,Guwahati,Jharkhand,VERIFIED
+CUST00361,Zilmil Pandey,1961-05-21,shroffyauvani@example.net,6657546027,Premium,Bilaspur,Rajasthan,PENDING
+CUST00362,Jagrati Butala,1965-10-06,malhotravedant@example.org,8353544439,Retail,Tinsukia,Himachal Pradesh,VERIFIED
+CUST00363,Chandani Manda,2001-09-05,netra69@example.net,6333738987,Senior Citizen,Mau,Uttar Pradesh,VERIFIED
+CUST00364,Dhriti Guha,1974-11-25,ckadakia@example.com,2407553666,Student,Anantapur,Odisha,PENDING
+CUST00365,Azad Dewan,1956-03-07,mahika63@example.com,7159741218,Student,Patna,Uttarakhand,VERIFIED
+CUST00366,Avi Grover,1959-04-07,rajubhanumati@example.org,7058025662,Premium,Bikaner,Nagaland,VERIFIED
+CUST00367,Vanya Biswas,1972-03-11,kalpitjha@example.com,9493874302,Salary,Rajkot,Uttarakhand,PENDING
+CUST00368,Yatin Vora,1968-02-07,dsharma@example.net,5469263296,Retail,Yamunanagar,Sikkim,VERIFIED
+CUST00369,Girish Ramaswamy,1993-04-06,khatrinakul@example.com,6815118567,Student,Nizamabad,Gujarat,PENDING
+CUST00370,Turvi Bala,1950-09-14,vraj@example.net,0412577711,Retail,Bahraich,Chhattisgarh,VERIFIED
+CUST00371,Arya Edwin,1957-05-01,chaudhrypeter@example.com,1042752308,Premium,Mango,Tamil Nadu,VERIFIED
+CUST00372,Harshil Ramakrishnan,1992-09-12,sachi09@example.org,5331060053,Senior Citizen,Muzaffarnagar,Bihar,VERIFIED
+CUST00373,Oliver Basu,1974-01-03,narainekantika@example.net,6613315520,Retail,Satna,Andhra Pradesh,VERIFIED
+CUST00374,Simon Shanker,1960-09-12,mallickjyoti@example.org,9718924195,Retail,Guntur,Karnataka,PENDING
+CUST00375,Eesha Subramaniam,1950-04-26,andrew99@example.com,9030914363,Senior Citizen,Allahabad,Chhattisgarh,VERIFIED
+CUST00376,Wishi Minhas,1959-06-21,keyajayaraman@example.net,5245086403,Senior Citizen,Tiruvottiyur,Haryana,PENDING
+CUST00377,Chatura Kothari,2000-04-05,lakshmiverma@example.com,7130232129,Student,Noida,Mizoram,PENDING
+CUST00378,Pooja Sibal,1966-12-01,rudrakonda@example.com,4973471566,Salary,Chittoor,Manipur,PENDING
+CUST00379,Yashasvi Sant,1997-06-17,vasatikabahri@example.com,8282467474,Salary,Kishanganj,Punjab,VERIFIED
+CUST00380,Ekbal Nath,1955-01-08,jhayre@example.org,7666567491,Senior Citizen,Agra,Bihar,VERIFIED
+CUST00381,Nicholas Hari,1997-08-22,xkumer@example.net,0663370502,Premium,Mahbubnagar,Manipur,VERIFIED
+CUST00382,Aachal Kota,1986-09-12,advikdada@example.org,8362644886,Salary,Bulandshahr,Tripura,VERIFIED
+CUST00383,Ikbal Padmanabhan,2001-02-16,amrutakadakia@example.net,7011686462,Premium,Dindigul,Goa,VERIFIED
+CUST00384,Rudra Sur,1958-02-08,seshadrisimon@example.org,4679121416,Premium,Bally,Assam,VERIFIED
+CUST00385,Ayushman Keer,1978-03-30,achaudhuri@example.org,1380698477,Premium,Mahbubnagar,Maharashtra,VERIFIED
+CUST00386,Kamala Oza,1967-03-04,jalsarastogi@example.com,0762091843,Student,Bidhannagar,Punjab,PENDING
+CUST00387,Yutika Sachdev,1990-08-26,aarushnagy@example.org,3976915671,Senior Citizen,Durg,Punjab,PENDING
+CUST00388,Luke Venkatesh,2005-05-07,dattawidisha@example.org,7178333211,Salary,Bhopal,Goa,VERIFIED
+CUST00389,Leela Mand,1960-09-19,vamakshi12@example.net,9915668633,Premium,Bhiwandi,Jharkhand,VERIFIED
+CUST00390,Isaac Chakraborty,1968-11-15,jackpillai@example.org,4098366552,Salary,Aligarh,Madhya Pradesh,PENDING
+CUST00391,Triveni Mutti,1955-07-27,theodore77@example.org,5481497374,Retail,Allahabad,Uttar Pradesh,VERIFIED
+CUST00392,Michael Kade,2003-06-07,charlesgola@example.com,8656756618,Salary,Ichalkaranji,Tamil Nadu,VERIFIED
+CUST00393,Meera Chatterjee,1954-08-18,chatura47@example.net,7423330591,Student,Gandhinagar,Maharashtra,VERIFIED
+CUST00394,Daksh Char,1969-12-02,dgola@example.org,6301367492,Senior Citizen,Hubli–Dharwad,Tripura,VERIFIED
+CUST00395,Lavanya Maharaj,1988-10-01,apillai@example.org,8309997419,Premium,Yamunanagar,Meghalaya,VERIFIED
+CUST00396,Chanchal Dass,1952-06-27,devansh82@example.com,8718981312,Premium,Kolkata,Nagaland,VERIFIED
+CUST00397,Dipta Das,1948-05-20,samueledwin@example.org,8458260340,Retail,Deoghar,Manipur,VERIFIED
+CUST00398,Vritti Munshi,1981-04-15,yashvi31@example.net,2432983954,Salary,Bhusawal,Assam,VERIFIED
+CUST00399,Abha Raj,1989-12-09,mugdhashan@example.org,3143598926,Student,Satna,Uttar Pradesh,VERIFIED
+CUST00400,Ladli Bal,1986-10-18,farasmadan@example.org,5155423401,Student,Korba,Madhya Pradesh,VERIFIED
+CUST00401,Jatin Gill,1981-07-19,vrishti18@example.com,1025625889,Student,Morena,Odisha,VERIFIED
+CUST00402,Aashi Andra,1992-06-12,jonathandhar@example.com,9672757844,Senior Citizen,Saharsa,Tamil Nadu,PENDING
+CUST00403,Dalaja Chahal,1966-07-10,fmunshi@example.net,2901487068,Student,Nangloi Jat,Meghalaya,VERIFIED
+CUST00404,Nidra Atwal,1987-08-29,abhimanyusandal@example.net,0972832152,Senior Citizen,Faridabad,Maharashtra,VERIFIED
+CUST00405,Ladli Garde,1971-02-15,nigamzaid@example.net,4430963480,Student,Tadipatri,West Bengal,VERIFIED
+CUST00406,Dakshesh Parekh,1946-02-14,tnarasimhan@example.com,6501673188,Senior Citizen,Bulandshahr,Bihar,VERIFIED
+CUST00407,Abhimanyu Dugal,1998-01-30,upkaar76@example.com,8417722560,Retail,Davanagere,Bihar,VERIFIED
+CUST00408,Bhavani Baria,1954-10-26,vsama@example.com,4167872568,Premium,Mira-Bhayandar,Bihar,VERIFIED
+CUST00409,Ansh Date,1956-04-22,xiti03@example.org,6744716392,Salary,Kulti,Himachal Pradesh,VERIFIED
+CUST00410,Adya Kota,1991-01-24,eissac@example.net,3923126043,Premium,Purnia,Andhra Pradesh,PENDING
+CUST00411,Gavin Behl,1971-08-09,tvohra@example.net,7086041454,Senior Citizen,Gurgaon,Haryana,PENDING
+CUST00412,Champak Gopal,1948-07-03,benekanta@example.org,1624755411,Salary,Suryapet,Tripura,VERIFIED
+CUST00413,Garima Patel,1996-03-01,kamya34@example.org,9109337118,Senior Citizen,Barasat,Telangana,PENDING
+CUST00414,Saksham Walla,1994-10-08,calebdatta@example.org,5571617688,Student,Rourkela,Punjab,VERIFIED
+CUST00415,Kai Mann,1948-10-24,guptamitali@example.com,6866943202,Student,Guntakal,Tamil Nadu,VERIFIED
+CUST00416,Yochana Shah,1980-01-03,chavvi34@example.net,3083402424,Student,Kulti,Uttarakhand,VERIFIED
+CUST00417,Jack Agarwal,1989-11-11,jyoti51@example.net,4500534240,Salary,Eluru,Rajasthan,VERIFIED
+CUST00418,Samuel Sathe,1960-09-26,amruta39@example.net,6527172722,Premium,Jehanabad,Meghalaya,VERIFIED
+CUST00419,Baghyawati Bail,1966-10-30,peterramesh@example.net,6376182091,Student,Yamunanagar,Andhra Pradesh,PENDING
+CUST00420,Agastya Bassi,1954-09-19,fiyazloyal@example.org,5132797245,Salary,Bhatpara,Haryana,PENDING
+CUST00421,Amara Dasgupta,1947-03-02,chauhanchaman@example.org,0366254361,Senior Citizen,Gulbarga,Bihar,VERIFIED
+CUST00422,Harsh Manda,1970-01-13,nathjagat@example.com,2685926249,Student,Karnal,Bihar,VERIFIED
+CUST00423,Xalak Pillay,1963-10-13,agatemanthan@example.net,7711964215,Salary,South Dumdum,Tripura,VERIFIED
+CUST00424,Ira Nagar,1979-05-09,ssrivastava@example.com,6878878836,Salary,Amaravati,Tamil Nadu,VERIFIED
+CUST00425,Theodore Chahal,1961-09-22,aarnav30@example.com,5524728633,Student,Pimpri-Chinchwad,Telangana,VERIFIED
+CUST00426,Jacob Dhar,1971-05-29,samrakamya@example.org,9202521310,Senior Citizen,Jalgaon,Tripura,PENDING
+CUST00427,Upma Dey,1996-08-18,upma65@example.com,0092820667,Student,Aurangabad,Mizoram,VERIFIED
+CUST00428,Utkarsh Sampath,1956-05-23,george86@example.org,3628917756,Premium,Dehradun,Arunachal Pradesh,VERIFIED
+CUST00429,Panini Hayer,1964-02-02,chawlafaras@example.com,2811390438,Senior Citizen,Patna,Haryana,PENDING
+CUST00430,Frederick Basu,1984-01-31,dbath@example.com,4683565215,Student,Ambala,Bihar,VERIFIED
+CUST00431,Arjun Raja,1978-03-06,mannanneel@example.org,3228898572,Premium,Ramagundam,Kerala,VERIFIED
+CUST00432,Balveer Ram,1961-12-29,falandua@example.net,4817175242,Senior Citizen,Parbhani,Odisha,VERIFIED
+CUST00433,Ira Chakraborty,1950-07-25,trivenikuruvilla@example.com,9705466927,Salary,Anand,West Bengal,PENDING
+CUST00434,Kashvi Chacko,1992-02-23,ctoor@example.com,8021462961,Student,Munger,West Bengal,VERIFIED
+CUST00435,Girik Palla,1977-06-04,dwarrior@example.org,6365155973,Retail,Raipur,Himachal Pradesh,VERIFIED
+CUST00436,Balvan Dugal,1977-09-14,tanaynagarajan@example.net,5673030644,Premium,Gwalior,Chhattisgarh,VERIFIED
+CUST00437,Anusha Ravel,1951-04-13,siya68@example.org,6542356778,Senior Citizen,Junagadh,Kerala,VERIFIED
+CUST00438,Advaith Issac,1951-01-06,ekiyanadig@example.org,5164807279,Senior Citizen,Vadodara,Gujarat,PENDING
+CUST00439,Osha Ganesan,1986-08-13,wkalita@example.org,5044817766,Retail,Nagercoil,Uttarakhand,VERIFIED
+CUST00440,Gautami Comar,1957-09-07,xsangha@example.org,4649111109,Retail,Vasai-Virar,Meghalaya,PENDING
+CUST00441,Sachi Thakur,1985-04-10,mannosha@example.org,1371576605,Retail,Guna,Jharkhand,VERIFIED
+CUST00442,Aishani Mohanty,2002-10-12,akhurana@example.com,5895529638,Student,Nellore,Punjab,VERIFIED
+CUST00443,Charan Sanghvi,1954-06-29,zghose@example.com,2819648253,Senior Citizen,Tiruchirappalli,Andhra Pradesh,VERIFIED
+CUST00444,Advay Dua,1947-08-13,rajaaryan@example.net,3343836404,Student,Asansol,Rajasthan,PENDING
+CUST00445,Harshil Choudhry,1976-12-18,chhabralucky@example.com,7536170617,Student,Bhagalpur,Sikkim,VERIFIED
+CUST00446,Keya Murthy,1988-11-01,ldyal@example.com,0155799802,Student,Bhilai,Gujarat,VERIFIED
+CUST00447,Arin Vasa,1980-07-18,tarakpatla@example.org,3124473158,Student,Bhind,Telangana,VERIFIED
+CUST00448,Rajata Vala,1972-12-08,zashilghose@example.org,9423767694,Senior Citizen,Moradabad,Punjab,VERIFIED
+CUST00449,Pushti Iyengar,1984-04-25,kashvi17@example.org,6498560125,Retail,Gaya,Kerala,VERIFIED
+CUST00450,Elijah Kale,1990-06-05,kamya25@example.org,3795381649,Student,Hajipur,Gujarat,VERIFIED
+CUST00451,Arunima Borde,1984-10-11,usaran@example.com,7046117295,Senior Citizen,Patiala,Odisha,VERIFIED
+CUST00452,Bhavani Badami,1989-07-10,shenoybhavani@example.org,0501716445,Retail,Silchar,Assam,VERIFIED
+CUST00453,Wakeeta Batta,1972-06-27,suhani71@example.com,0215632135,Salary,Faridabad,Himachal Pradesh,PENDING
+CUST00454,Indrajit Bava,1966-06-06,lallaforum@example.net,9712529671,Premium,Gangtok,Meghalaya,PENDING
+CUST00455,Avni Nagy,1998-04-20,fkara@example.com,3311703037,Senior Citizen,Maheshtala,Meghalaya,PENDING
+CUST00456,Harini Joshi,2001-02-10,devika72@example.net,6798363146,Salary,Aizawl,West Bengal,VERIFIED
+CUST00457,Manan Shenoy,2005-05-06,choudharywridesh@example.org,7875418156,Senior Citizen,Saharanpur,Madhya Pradesh,PENDING
+CUST00458,Yashoda Nath,1949-05-04,xmahajan@example.org,4362948978,Student,Moradabad,Sikkim,VERIFIED
+CUST00459,Yuvraj Choudhry,1960-08-30,berabalendra@example.net,1439666134,Premium,Tiruppur,Goa,VERIFIED
+CUST00460,Idika Mani,1993-10-03,aarush12@example.net,5122572076,Senior Citizen,Jaipur,Goa,PENDING
+CUST00461,Faraj Garde,1991-12-10,pandeyurvi@example.net,1009438822,Premium,Salem,Jharkhand,PENDING
+CUST00462,Sneha Swaminathan,1995-09-22,aarini74@example.com,5897148026,Retail,Ajmer,Kerala,VERIFIED
+CUST00463,Azaan Konda,1985-01-09,nparsa@example.net,4878245569,Student,Bally,Jharkhand,PENDING
+CUST00464,Benjamin Venkatesh,1993-06-25,jason67@example.net,7272849824,Student,Tumkur,Assam,VERIFIED
+CUST00465,Alexander Setty,1948-07-04,barkhadasgupta@example.org,5004254882,Student,Gopalpur,Chhattisgarh,VERIFIED
+CUST00466,Rachana Buch,1965-07-05,azadsolanki@example.com,1449429659,Premium,Kollam,Himachal Pradesh,VERIFIED
+CUST00467,Omaja Iyengar,1966-03-17,frederick49@example.net,6128758575,Retail,Kirari Suleman Nagar,Maharashtra,PENDING
+CUST00468,Triya Bala,2007-10-27,samagaurang@example.org,5298940626,Retail,Surendranagar Dudhrej,Uttar Pradesh,PENDING
+CUST00469,Chatura Chad,1949-06-11,hredhaan59@example.org,0198038287,Retail,Rajahmundry,Sikkim,VERIFIED
+CUST00470,Charvi Mukhopadhyay,1994-08-29,sundaramsai@example.org,1813317087,Student,Pimpri-Chinchwad,Bihar,VERIFIED
+CUST00471,Nidhi Sule,1958-03-31,abhasarna@example.net,2232883774,Retail,Salem,Odisha,PENDING
+CUST00472,Jhalak Maharaj,1972-05-05,dchhabra@example.com,7196094097,Salary,Raichur,Chhattisgarh,VERIFIED
+CUST00473,Tara Malhotra,1946-05-05,ishitatella@example.net,8122595724,Senior Citizen,Singrauli,Assam,PENDING
+CUST00474,Krisha Sodhi,1986-12-13,yashicavora@example.com,5996100231,Retail,Panchkula,Sikkim,VERIFIED
+CUST00475,Ekiya Kata,1998-03-28,henryghosh@example.net,9410175902,Senior Citizen,Moradabad,Tamil Nadu,PENDING
+CUST00476,Krishna Deol,1989-02-04,rohankrishnan@example.com,2683190130,Salary,Kolkata,Kerala,PENDING
+CUST00477,Ekbal Oak,1958-05-01,ngupta@example.net,9821766191,Senior Citizen,Hazaribagh,Jharkhand,VERIFIED
+CUST00478,Jacob Tara,1961-05-30,zachariahganga@example.org,5124189389,Senior Citizen,Silchar,Punjab,VERIFIED
+CUST00479,Indrajit Sinha,2008-02-24,ayushman05@example.com,2385037199,Premium,Sri Ganganagar,Assam,VERIFIED
+CUST00480,Faris Srinivas,1954-07-13,benjamin10@example.com,4300038960,Premium,Faridabad,Madhya Pradesh,VERIFIED
+CUST00481,Jeremiah Sani,1993-06-12,hdevi@example.com,3560331903,Student,Jorhat,Odisha,VERIFIED
+CUST00482,Alexander Krish,2001-01-07,bosedakshesh@example.org,5593429671,Retail,Solapur,Himachal Pradesh,PENDING
+CUST00483,Warda Parikh,2006-10-21,sachimittal@example.com,5881056974,Premium,Kurnool,Chhattisgarh,VERIFIED
+CUST00484,Dalaja Kade,1954-01-27,lucky03@example.net,7044964104,Retail,Shimla,Andhra Pradesh,VERIFIED
+CUST00485,Leena Sawhney,1948-09-28,sameshraghavan@example.org,0850954930,Salary,Raebareli,West Bengal,VERIFIED
+CUST00486,Dakshesh Chopra,1983-05-17,imani@example.com,4267320441,Salary,Hosur,Jharkhand,VERIFIED
+CUST00487,Megha Barad,1987-08-11,janaki44@example.net,5427707070,Salary,Nangloi Jat,Rajasthan,PENDING
+CUST00488,Nilima Bhardwaj,1985-02-28,malhotradipta@example.org,4723229031,Premium,Udaipur,Sikkim,VERIFIED
+CUST00489,Edhitha Barman,1983-05-20,darshlad@example.com,9351187181,Senior Citizen,Kurnool,Karnataka,PENDING
+CUST00490,Ojasvi Bora,1989-05-27,jmandal@example.org,6574902504,Senior Citizen,Gudivada,Andhra Pradesh,VERIFIED
+CUST00491,Siddharth Munshi,1980-06-24,tanveer69@example.org,3989868180,Premium,Loni,Mizoram,VERIFIED
+CUST00492,Edhitha Luthra,1958-12-29,yagnesh53@example.com,3765158815,Retail,Mahbubnagar,Haryana,PENDING
+CUST00493,Omya Karpe,1984-06-19,yashreddy@example.net,5511668297,Senior Citizen,Bokaro,Manipur,VERIFIED
+CUST00494,Ojas Dara,1974-03-17,upma12@example.org,2886652683,Student,Kochi,Karnataka,VERIFIED
+CUST00495,Hritik Bath,1950-09-28,saumya67@example.net,2981209957,Premium,Pondicherry,Manipur,PENDING
+CUST00496,Yashoda Mammen,1998-04-29,katachameli@example.com,8986456522,Salary,Bhagalpur,Maharashtra,PENDING
+CUST00497,Dipta Chaudhary,1969-05-11,noah14@example.com,4491342138,Salary,Bhopal,Punjab,VERIFIED
+CUST00498,Robert Ahuja,1978-12-15,pinglesamar@example.com,7411767412,Student,Bhiwandi,Kerala,VERIFIED
+CUST00499,Tristan Borde,1967-12-25,yashicanayak@example.com,0618538003,Senior Citizen,Dharmavaram,Madhya Pradesh,VERIFIED
+CUST00500,Rohan Lanka,1977-09-17,vedhikagrover@example.net,1830617893,Retail,Agra,Maharashtra,PENDING

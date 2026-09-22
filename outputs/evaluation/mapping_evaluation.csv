@@ -1,0 +1,13 @@
+incoming_term,recommended_concept,action,semantic_score,top_vector_score,collision,collision_type,collision_reason,parent_classes,final_confidence,routing_decision,expected_mapping,expected_action,mapping_correct,action_correct
+client,Customer,REUSE,0.7629,0.7629,False,,Mapping is compatible with the ontology and expected concept.,Party,0.7629,SOFT_REVIEW,Customer,REUSE,True,True
+client_id,Customer,REUSE,0.7027,0.7027,False,,Mapping is compatible with the ontology and expected concept.,Party,0.7027,SOFT_REVIEW,Customer,REUSE,True,True
+card_holder,Customer,REUSE,0.6749,0.7321,False,,Mapping is compatible with the ontology and expected concept.,Party,0.6978,HUMAN_ESCALATION,Customer,REUSE,True,True
+card_holder_id,Customer,REUSE,0.662,0.7052,False,,Mapping is compatible with the ontology and expected concept.,Party,0.6793,HUMAN_ESCALATION,Customer,REUSE,True,True
+account_ref,Account,REUSE,0.6951,0.6969,False,,Mapping is compatible with the ontology and expected concept.,FinancialProduct,0.6958,HUMAN_ESCALATION,Account,REUSE,True,True
+merchant_ref,MerchantIdentifier,CREATE_NEW,0.7491,0.7491,False,,No existing ontology mapping selected. Candidate should follow ontology review.,,0.7491,HUMAN_ESCALATION,Merchant,REUSE,False,False
+payment_event,Transaction,REUSE,0.6993,0.6993,False,,Mapping is compatible with the ontology and expected concept.,,0.6993,HUMAN_ESCALATION,Transaction,REUSE,True,True
+subject,Party,REUSE,0.657,0.6858,True,SEMANTIC_MAPPING_MISMATCH,Recommended concept Party differs from expected semantic concept Customer.,,0.49,HUMAN_ESCALATION,Customer,REUSE,False,True
+fraud_case,RiskEvent,REUSE,0.7307,0.7307,False,,Mapping is compatible with the ontology and expected concept.,,0.7307,SOFT_REVIEW,RiskEvent,REUSE,True,True
+mobile_wallet,MobileWallet,CREATE_NEW,0.0,0.6624,False,,No existing ontology mapping selected. Candidate should follow ontology review.,,0.265,HUMAN_ESCALATION,DigitalWallet,CREATE_NEW,False,True
+borrower,Customer,REUSE,0.7183,0.7183,False,,Mapping is compatible with the ontology and expected concept.,Party,0.7183,SOFT_REVIEW,Customer,REUSE,True,True
+terminal,PaymentChannel,REUSE,0.6634,0.702,False,,Mapping is compatible with the ontology and expected concept.,,0.6788,HUMAN_ESCALATION,TransactionTerminal,CREATE_NEW,False,False

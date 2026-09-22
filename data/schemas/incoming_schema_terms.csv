@@ -1,0 +1,13 @@
+source_system,incoming_term,description
+CRM,client,Person maintaining or potentially establishing a relationship with the bank.
+CRM,client_id,Unique identifier assigned to a banking client.
+Cards,card_holder,Customer to whom a payment card has been issued.
+Cards,card_holder_id,Identifier of the customer holding the card.
+Payments,account_ref,Reference to the financial account used in a transaction.
+Payments,merchant_ref,Identifier of a merchant receiving payment.
+Payments,payment_event,Financial event representing transfer or movement of money.
+Fraud,subject,Person being evaluated in a fraud or risk investigation.
+Fraud,fraud_case,Risk investigation event generated from suspicious banking activity.
+DigitalBanking,mobile_wallet,Digital wallet allowing customers to store value and initiate payments.
+Lending,borrower,Customer who has obtained a loan from the bank.
+ATM,terminal,Physical or electronic terminal where banking transactions occur.

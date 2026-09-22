@@ -1,0 +1,8 @@
+rule_name,violations,status
+orphan_account_customer,1,FAIL
+card_missing_account,1,FAIL
+risk_missing_transaction,1,FAIL
+transaction_missing_customer,0,PASS
+transaction_missing_account,0,PASS
+duplicate_customer_id,0,PASS
+duplicate_account_id,0,PASS

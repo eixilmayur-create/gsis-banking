@@ -1,0 +1,551 @@
+client_id,client_name,client_type,contact_email,relationship_status,preferred_channel
+CUST00362,Jagrati Butala,Retail,malhotravedant@example.org,ACTIVE,BRANCH
+CUST00074,Dipta Mallick,Retail,balquincy@example.com,INACTIVE,MOBILE_APP
+CUST00375,Eesha Subramaniam,Senior Citizen,andrew99@example.com,ACTIVE,BRANCH
+CUST00156,Ranveer Oza,Retail,vamakshiparmer@example.net,ACTIVE,PHONE
+CUST00105,Farhan Tella,Student,chatresh16@example.org,ACTIVE,MOBILE_APP
+CUST00395,Lavanya Maharaj,Premium,apillai@example.org,ACTIVE,EMAIL
+CUST00378,Pooja Sibal,Salary,rudrakonda@example.com,ACTIVE,EMAIL
+CUST00125,Frado Kothari,Student,avi43@example.net,INACTIVE,MOBILE_APP
+CUST00069,Rachit Chada,Salary,ekansh88@example.net,ACTIVE,PHONE
+CUST00451,Arunima Borde,Senior Citizen,usaran@example.com,ACTIVE,PHONE
+CUST00010,Ikbal Kothari,Senior Citizen,saumyadey@example.com,ACTIVE,MOBILE_APP
+CUST00195,Robert Bandi,Salary,omkaarbanik@example.com,ACTIVE,PHONE
+CUST00407,Abhimanyu Dugal,Retail,upkaar76@example.com,INACTIVE,MOBILE_APP
+CUST00085,David Devi,Salary,ektasridhar@example.net,ACTIVE,PHONE
+CUST00372,Harshil Ramakrishnan,Senior Citizen,sachi09@example.org,ACTIVE,MOBILE_APP
+CUST00389,Leela Mand,Premium,vamakshi12@example.net,ACTIVE,EMAIL
+CUST00496,Yashoda Mammen,Salary,katachameli@example.com,ACTIVE,PHONE
+CUST00031,Harish Hari,Salary,jalsagola@example.com,ACTIVE,BRANCH
+CUST00317,Omaja Bose,Student,vchandra@example.org,ACTIVE,PHONE
+CUST00409,Ansh Date,Salary,xiti03@example.org,INACTIVE,EMAIL
+CUST00491,Siddharth Munshi,Premium,tanveer69@example.org,ACTIVE,EMAIL
+CUST00492,Edhitha Luthra,Retail,yagnesh53@example.com,ACTIVE,PHONE
+CUST00281,Qarin Jha,Premium,nadighemangini@example.org,ACTIVE,BRANCH
+CUST00357,Caleb Balan,Salary,bhanumatighosh@example.org,ACTIVE,MOBILE_APP
+CUST00077,Jeet Vasa,Senior Citizen,nitesh25@example.net,ACTIVE,PHONE
+CUST00462,Sneha Swaminathan,Retail,aarini74@example.com,ACTIVE,PHONE
+CUST00498,Robert Ahuja,Student,pinglesamar@example.com,ACTIVE,EMAIL
+CUST00212,Jason Kulkarni,Retail,rushil50@example.net,ACTIVE,PHONE
+CUST00102,Advik Badal,Retail,bhavini08@example.net,ACTIVE,EMAIL
+CUST00335,Logan Purohit,Student,henrynarang@example.net,ACTIVE,EMAIL
+CUST00476,Krishna Deol,Salary,rohankrishnan@example.com,ACTIVE,BRANCH
+CUST00337,Kala Dani,Student,hchoudhary@example.com,ACTIVE,MOBILE_APP
+CUST00441,Sachi Thakur,Retail,mannosha@example.org,ACTIVE,MOBILE_APP
+CUST00174,Omaja Munshi,Student,aryazayan@example.org,ACTIVE,PHONE
+CUST00003,Janaki Handa,Premium,bathvedant@example.com,INACTIVE,BRANCH
+CUST00334,Pahal Tiwari,Retail,pradhanaashi@example.net,ACTIVE,PHONE
+CUST00410,Adya Kota,Premium,eissac@example.net,ACTIVE,PHONE
+CUST00071,Bhavika Parikh,Premium,narulaanjali@example.org,ACTIVE,BRANCH
+CUST00210,Amruta Dass,Retail,oanand@example.org,ACTIVE,MOBILE_APP
+CUST00064,Rehaan Kara,Salary,farasmerchant@example.org,ACTIVE,PHONE
+CUST00385,Ayushman Keer,Premium,achaudhuri@example.org,ACTIVE,BRANCH
+CUST00094,Keya Buch,Retail,ijayadani@example.org,ACTIVE,PHONE
+CUST00486,Dakshesh Chopra,Salary,imani@example.com,ACTIVE,PHONE
+CUST00186,Chakradhar Baral,Premium,harshil84@example.net,ACTIVE,BRANCH
+CUST00034,Bishakha Bali,Premium,barkha71@example.net,ACTIVE,MOBILE_APP
+CUST00078,Onveer Nazareth,Retail,balakrishnanfinn@example.org,ACTIVE,PHONE
+CUST00001,Aryan Maharaj,Retail,liamchaudry@example.net,ACTIVE,MOBILE_APP
+CUST00012,Yadavi Wali,Senior Citizen,trivedifaris@example.org,ACTIVE,EMAIL
+CUST00416,Yochana Shah,Student,chavvi34@example.net,ACTIVE,BRANCH
+CUST00023,Matthew Kashyap,Student,tanishbhatt@example.com,ACTIVE,MOBILE_APP
+CUST00073,Azaan Dhar,Student,ibanerjee@example.org,ACTIVE,PHONE
+CUST00183,Yatin Kant,Retail,xmalhotra@example.org,ACTIVE,MOBILE_APP
+CUST00132,Damyanti Chawla,Retail,oniswamy@example.org,ACTIVE,EMAIL
+CUST00411,Gavin Behl,Senior Citizen,tvohra@example.net,ACTIVE,EMAIL
+CUST00194,Gavin Dhillon,Salary,echakrabarti@example.com,INACTIVE,BRANCH
+CUST00056,Charles Dugal,Premium,bumbanita@example.com,INACTIVE,PHONE
+CUST00149,Eshana Majumdar,Premium,yarora@example.net,INACTIVE,BRANCH
+CUST00019,Dipta Dash,Salary,yashica46@example.com,INACTIVE,MOBILE_APP
+CUST00205,Odika Ganesh,Student,dasswahab@example.net,INACTIVE,EMAIL
+CUST00079,Nakul Sarraf,Retail,nshetty@example.com,INACTIVE,PHONE
+CUST00495,Hritik Bath,Premium,saumya67@example.net,ACTIVE,BRANCH
+CUST00263,Ekaraj Zachariah,Senior Citizen,rajagopalanvasatika@example.org,ACTIVE,EMAIL
+CUST00324,Maanav Khurana,Student,gabrielmitra@example.com,ACTIVE,EMAIL
+CUST00484,Dalaja Kade,Retail,lucky03@example.net,ACTIVE,MOBILE_APP
+CUST00080,Gunbir Bedi,Premium,psahota@example.org,ACTIVE,EMAIL
+CUST00040,Tamanna Nagy,Salary,williamrajagopal@example.org,ACTIVE,PHONE
+CUST00452,Bhavani Badami,Retail,shenoybhavani@example.org,INACTIVE,PHONE
+CUST00047,Urishilla Bakshi,Premium,timothy17@example.net,ACTIVE,EMAIL
+CUST00239,Aashi Vora,Premium,kai99@example.com,ACTIVE,BRANCH
+CUST00392,Michael Kade,Salary,charlesgola@example.com,ACTIVE,BRANCH
+CUST00353,Hritik Chauhan,Senior Citizen,harijonathan@example.net,ACTIVE,BRANCH
+CUST00342,Chanchal Ramakrishnan,Senior Citizen,lucky65@example.com,ACTIVE,EMAIL
+CUST00278,Gagan Buch,Senior Citizen,bhavyabose@example.org,ACTIVE,MOBILE_APP
+CUST00291,Caleb Bhatti,Salary,charjatin@example.net,ACTIVE,PHONE
+CUST00318,Ekta Dayal,Senior Citizen,mandalekantika@example.org,INACTIVE,MOBILE_APP
+CUST00305,Anmol Bhakta,Student,murthychanchal@example.org,ACTIVE,MOBILE_APP
+CUST00269,Warinder Handa,Salary,pathakyashica@example.org,ACTIVE,EMAIL
+CUST00070,Hamsini Gill,Premium,osrinivas@example.org,ACTIVE,BRANCH
+CUST00456,Harini Joshi,Salary,devika72@example.net,INACTIVE,PHONE
+CUST00466,Rachana Buch,Premium,azadsolanki@example.com,ACTIVE,MOBILE_APP
+CUST00155,Vasatika Bhatt,Senior Citizen,ekta44@example.net,ACTIVE,BRANCH
+CUST00083,Manthan Varma,Premium,eiravati26@example.net,ACTIVE,MOBILE_APP
+CUST00478,Jacob Tara,Senior Citizen,zachariahganga@example.org,INACTIVE,PHONE
+CUST00173,Daksh Iyengar,Salary,bhavinikrishna@example.org,ACTIVE,EMAIL
+CUST00322,Maya Bath,Salary,umishra@example.net,ACTIVE,PHONE
+CUST00091,Jacob Merchant,Senior Citizen,theodoredeol@example.com,ACTIVE,EMAIL
+CUST00181,Siddharth Sachar,Premium,naveengour@example.org,INACTIVE,EMAIL
+CUST00415,Kai Mann,Student,guptamitali@example.com,ACTIVE,BRANCH
+CUST00313,Simon Rajagopal,Retail,ekunda@example.org,INACTIVE,BRANCH
+CUST00279,Bishakha Gulati,Student,katazinal@example.net,ACTIVE,EMAIL
+CUST00382,Aachal Kota,Salary,advikdada@example.org,INACTIVE,PHONE
+CUST00473,Tara Malhotra,Senior Citizen,ishitatella@example.net,ACTIVE,BRANCH
+CUST00363,Chandani Manda,Senior Citizen,netra69@example.net,ACTIVE,PHONE
+CUST00325,Charan Nath,Student,sankaranojasvi@example.com,INACTIVE,EMAIL
+CUST00432,Balveer Ram,Senior Citizen,falandua@example.net,ACTIVE,BRANCH
+CUST00348,Onkar Hari,Retail,dhruvdave@example.net,INACTIVE,MOBILE_APP
+CUST00087,Tanish Jaggi,Retail,anita21@example.net,ACTIVE,MOBILE_APP
+CUST00076,Gabriel Bhatti,Retail,hsrinivas@example.com,ACTIVE,PHONE
+CUST00439,Osha Ganesan,Retail,wkalita@example.org,ACTIVE,EMAIL
+CUST00016,Janya Baral,Premium,shivansh31@example.com,ACTIVE,BRANCH
+CUST00250,Ladli Narang,Student,chanateerth@example.org,ACTIVE,EMAIL
+CUST00434,Kashvi Chacko,Student,ctoor@example.com,INACTIVE,BRANCH
+CUST00020,Ekanta Shroff,Senior Citizen,gkala@example.com,INACTIVE,PHONE
+CUST00323,Agastya Garg,Retail,ssharma@example.com,INACTIVE,MOBILE_APP
+CUST00333,Rudra Mitra,Senior Citizen,yogigaurika@example.com,ACTIVE,BRANCH
+CUST00057,Chakradev Kannan,Senior Citizen,amblesamarth@example.com,ACTIVE,PHONE
+CUST00302,Prisha Kadakia,Premium,mittalyamini@example.com,ACTIVE,BRANCH
+CUST00230,Saanvi Mahal,Salary,hredhaandeep@example.org,ACTIVE,PHONE
+CUST00332,Dalbir Venkatesh,Senior Citizen,rratti@example.net,ACTIVE,PHONE
+CUST00133,Radhika De,Premium,advika56@example.net,ACTIVE,EMAIL
+CUST00138,Atharv Nagar,Senior Citizen,ayushmanmand@example.org,INACTIVE,EMAIL
+CUST00424,Ira Nagar,Salary,ssrivastava@example.com,INACTIVE,PHONE
+CUST00336,Zilmil Rana,Senior Citizen,wishi67@example.net,ACTIVE,MOBILE_APP
+CUST00026,Azaan Kota,Senior Citizen,duawilliam@example.org,ACTIVE,EMAIL
+CUST00465,Alexander Setty,Student,barkhadasgupta@example.org,ACTIVE,BRANCH
+CUST00282,Chakrika Som,Premium,manan97@example.com,INACTIVE,MOBILE_APP
+CUST00248,Barkha Pall,Senior Citizen,yashodachauhan@example.com,ACTIVE,BRANCH
+CUST00238,Prisha Bhattacharyya,Student,hdesai@example.net,ACTIVE,BRANCH
+CUST00118,Ishaan Loyal,Premium,benjamin78@example.org,ACTIVE,BRANCH
+CUST00043,Lavanya Khosla,Salary,vincentshenoy@example.net,ACTIVE,PHONE
+CUST00221,Faras Nair,Salary,fghose@example.net,ACTIVE,EMAIL
+CUST00177,Balveer Nagi,Salary,rajuaahana@example.net,ACTIVE,MOBILE_APP
+CUST00321,Yuvraj Virk,Senior Citizen,champak81@example.org,ACTIVE,BRANCH
+CUST00154,Udarsh Krishnan,Senior Citizen,anvi66@example.com,ACTIVE,BRANCH
+CUST00232,Yatin Sane,Retail,raidhriti@example.com,INACTIVE,BRANCH
+CUST00228,David Kurian,Salary,jbalan@example.com,ACTIVE,PHONE
+CUST00418,Samuel Sathe,Premium,amruta39@example.net,ACTIVE,BRANCH
+CUST00204,Bhavini Sheth,Student,olivernazareth@example.com,ACTIVE,BRANCH
+CUST00127,Farhan Vaidya,Salary,nachiketyadav@example.com,ACTIVE,BRANCH
+CUST00330,Gaurika Devi,Salary,revasagar@example.org,ACTIVE,PHONE
+CUST00032,Qarin Behl,Salary,ecomar@example.com,ACTIVE,BRANCH
+CUST00114,Quincy Sankaran,Retail,horashivani@example.net,ACTIVE,MOBILE_APP
+CUST00471,Nidhi Sule,Retail,abhasarna@example.net,ACTIVE,MOBILE_APP
+CUST00272,Gautami Datta,Student,mandlaban@example.org,ACTIVE,MOBILE_APP
+CUST00141,Laban Dugar,Salary,psur@example.com,ACTIVE,BRANCH
+CUST00058,Rajata Bahl,Student,munshipushti@example.net,ACTIVE,PHONE
+CUST00193,Odika Subramanian,Student,veda44@example.net,ACTIVE,MOBILE_APP
+CUST00025,Krishna Shenoy,Senior Citizen,ladladli@example.com,INACTIVE,MOBILE_APP
+CUST00018,Balvan Chopra,Student,upai@example.com,ACTIVE,BRANCH
+CUST00266,Damyanti Chatterjee,Student,devanshcherian@example.org,ACTIVE,PHONE
+CUST00067,Kavya Kapur,Senior Citizen,hardik52@example.org,INACTIVE,PHONE
+CUST00209,Zansi Magar,Salary,nitara31@example.org,INACTIVE,BRANCH
+CUST00480,Faris Srinivas,Premium,benjamin10@example.com,ACTIVE,EMAIL
+CUST00095,Ranbir Chowdhury,Salary,pbabu@example.org,ACTIVE,EMAIL
+CUST00254,Jyoti Chowdhury,Student,jbuch@example.net,ACTIVE,BRANCH
+CUST00267,Oscar Nayak,Senior Citizen,mahallohit@example.com,ACTIVE,EMAIL
+CUST00024,Oni Yohannan,Senior Citizen,vinayakanda@example.com,ACTIVE,PHONE
+CUST00223,Chandran Rastogi,Senior Citizen,rastogiyachana@example.com,ACTIVE,EMAIL
+CUST00262,Riya Lad,Student,boraekavir@example.net,ACTIVE,EMAIL
+CUST00427,Upma Dey,Student,upma65@example.com,INACTIVE,EMAIL
+CUST00006,Harini Choudhury,Retail,ddugar@example.org,ACTIVE,PHONE
+CUST00117,Yashasvi Talwar,Retail,tsagar@example.com,ACTIVE,MOBILE_APP
+CUST00046,Chakrika Nigam,Student,sidhufaqid@example.org,INACTIVE,BRANCH
+CUST00017,Upma Kapadia,Retail,tpalla@example.org,ACTIVE,EMAIL
+CUST00463,Azaan Konda,Student,nparsa@example.net,ACTIVE,MOBILE_APP
+CUST00358,Tanmayi Khatri,Senior Citizen,onveer89@example.com,INACTIVE,BRANCH
+CUST00004,Nihal Shere,Retail,theodore50@example.org,ACTIVE,BRANCH
+CUST00219,Kamya Sachar,Senior Citizen,mnaik@example.org,ACTIVE,MOBILE_APP
+CUST00406,Dakshesh Parekh,Senior Citizen,tnarasimhan@example.com,ACTIVE,MOBILE_APP
+CUST00061,Bhavini Bose,Senior Citizen,tripathileena@example.com,ACTIVE,MOBILE_APP
+CUST00111,Nandini Warrior,Premium,ybansal@example.com,ACTIVE,BRANCH
+CUST00319,Jai Misra,Senior Citizen,rmukherjee@example.net,ACTIVE,PHONE
+CUST00429,Panini Hayer,Senior Citizen,chawlafaras@example.com,ACTIVE,PHONE
+CUST00030,Urvashi Wali,Retail,wnarayanan@example.net,ACTIVE,PHONE
+CUST00438,Advaith Issac,Senior Citizen,ekiyanadig@example.org,ACTIVE,BRANCH
+CUST00472,Jhalak Maharaj,Salary,dchhabra@example.com,ACTIVE,EMAIL
+CUST00027,Mekhala Issac,Retail,harshmitra@example.net,INACTIVE,PHONE
+CUST00008,Devika Rastogi,Premium,raksha87@example.org,ACTIVE,EMAIL
+CUST00454,Indrajit Bava,Premium,lallaforum@example.net,ACTIVE,MOBILE_APP
+CUST00109,Meghana Natarajan,Premium,cnarayan@example.com,ACTIVE,MOBILE_APP
+CUST00038,Jairaj Balakrishnan,Student,nathanmukhopadhyay@example.net,INACTIVE,BRANCH
+CUST00158,Nimrat Shankar,Retail,pranit17@example.com,ACTIVE,BRANCH
+CUST00490,Ojasvi Bora,Senior Citizen,jmandal@example.org,ACTIVE,PHONE
+CUST00119,Noah Dewan,Student,samuelbhargava@example.net,INACTIVE,MOBILE_APP
+CUST00115,Dhriti Rama,Senior Citizen,wcomar@example.com,INACTIVE,EMAIL
+CUST00176,Ekansh Tiwari,Salary,zyadav@example.org,ACTIVE,MOBILE_APP
+CUST00374,Simon Shanker,Retail,mallickjyoti@example.org,ACTIVE,MOBILE_APP
+CUST00182,Ishanvi Dave,Premium,harishmane@example.net,ACTIVE,BRANCH
+CUST00145,Baghyawati Mishra,Retail,bawamaya@example.net,ACTIVE,MOBILE_APP
+CUST00370,Turvi Bala,Retail,vraj@example.net,ACTIVE,MOBILE_APP
+CUST00391,Triveni Mutti,Retail,theodore77@example.org,ACTIVE,MOBILE_APP
+CUST00196,Idika Malhotra,Senior Citizen,suhaniraval@example.net,ACTIVE,PHONE
+CUST00405,Ladli Garde,Student,nigamzaid@example.net,ACTIVE,PHONE
+CUST00276,Yutika Patla,Student,choudhryleela@example.com,ACTIVE,BRANCH
+CUST00455,Avni Nagy,Senior Citizen,fkara@example.com,ACTIVE,PHONE
+CUST00142,Eesha Kant,Salary,tanejalohit@example.com,ACTIVE,BRANCH
+CUST00366,Avi Grover,Premium,rajubhanumati@example.org,ACTIVE,MOBILE_APP
+CUST00068,Wazir Mitra,Senior Citizen,khareoni@example.net,INACTIVE,BRANCH
+CUST00211,Ekbal Singhal,Senior Citizen,zashilraj@example.org,INACTIVE,EMAIL
+CUST00169,Suhani Narula,Senior Citizen,tpatla@example.com,ACTIVE,MOBILE_APP
+CUST00494,Ojas Dara,Student,upma12@example.org,ACTIVE,BRANCH
+CUST00376,Wishi Minhas,Senior Citizen,keyajayaraman@example.net,ACTIVE,MOBILE_APP
+CUST00401,Jatin Gill,Student,vrishti18@example.com,ACTIVE,PHONE
+CUST00273,Tarak Solanki,Salary,amallick@example.net,ACTIVE,EMAIL
+CUST00110,Maya Patla,Senior Citizen,pranitbala@example.net,INACTIVE,PHONE
+CUST00249,Harini Joshi,Premium,ksaran@example.com,ACTIVE,PHONE
+CUST00146,Jack Morar,Student,fsinha@example.net,ACTIVE,EMAIL
+CUST00093,Anthony Randhawa,Retail,kamdarelijah@example.org,ACTIVE,MOBILE_APP
+CUST00153,Inaya Padmanabhan,Senior Citizen,gautam40@example.com,ACTIVE,MOBILE_APP
+CUST00368,Yatin Vora,Retail,dsharma@example.net,INACTIVE,MOBILE_APP
+CUST00468,Triya Bala,Retail,samagaurang@example.org,ACTIVE,MOBILE_APP
+CUST00084,Urvi Lanka,Salary,charansrinivasan@example.org,ACTIVE,BRANCH
+CUST00246,Kalpit Balakrishnan,Senior Citizen,cherianleela@example.org,ACTIVE,BRANCH
+CUST00166,Dev Lal,Retail,advik89@example.net,ACTIVE,EMAIL
+CUST00164,Pooja D’Alia,Retail,andralakshit@example.net,INACTIVE,PHONE
+CUST00200,Vanya Zachariah,Senior Citizen,meera27@example.org,ACTIVE,BRANCH
+CUST00229,Saumya Deep,Retail,samakshdevi@example.com,ACTIVE,BRANCH
+CUST00075,Gagan Nagarajan,Salary,dhruv88@example.com,ACTIVE,PHONE
+CUST00479,Indrajit Sinha,Premium,ayushman05@example.com,ACTIVE,PHONE
+CUST00359,Falak Kota,Salary,jonathan89@example.com,ACTIVE,BRANCH
+CUST00251,Gaurav Anand,Premium,sdatta@example.org,INACTIVE,PHONE
+CUST00120,Kevin Krish,Premium,yug67@example.org,ACTIVE,PHONE
+CUST00311,Pushti Lad,Salary,pillaionkar@example.net,ACTIVE,BRANCH
+CUST00300,Eshana Barad,Salary,avarma@example.com,ACTIVE,PHONE
+CUST00256,Fitan Date,Salary,mallzayyan@example.org,ACTIVE,EMAIL
+CUST00355,Harita Gulati,Salary,msibal@example.net,ACTIVE,BRANCH
+CUST00400,Ladli Bal,Student,farasmadan@example.org,ACTIVE,PHONE
+CUST00226,Andrew Puri,Senior Citizen,kumeronkar@example.org,ACTIVE,PHONE
+CUST00354,Deepa Dhingra,Retail,mmore@example.com,INACTIVE,EMAIL
+CUST00235,Gautami Doctor,Student,praneelbehl@example.com,ACTIVE,BRANCH
+CUST00383,Ikbal Padmanabhan,Premium,amrutakadakia@example.net,INACTIVE,BRANCH
+CUST00275,Suhani Sheth,Student,nidragoyal@example.com,INACTIVE,BRANCH
+CUST00037,Gaurang Murty,Premium,jack68@example.org,INACTIVE,EMAIL
+CUST00197,Yagnesh Nori,Senior Citizen,lsharma@example.org,ACTIVE,PHONE
+CUST00140,Vanya Acharya,Salary,kalpitoak@example.net,ACTIVE,EMAIL
+CUST00365,Azad Dewan,Student,mahika63@example.com,ACTIVE,PHONE
+CUST00245,Anjali Dixit,Premium,ishwar09@example.net,ACTIVE,EMAIL
+CUST00440,Gautami Comar,Retail,xsangha@example.org,ACTIVE,PHONE
+CUST00287,Jagdish Prakash,Salary,ladnicholas@example.net,ACTIVE,MOBILE_APP
+CUST00060,Peter Tak,Senior Citizen,onaidu@example.com,ACTIVE,EMAIL
+CUST00112,Sanaya Prasad,Premium,jtella@example.com,INACTIVE,MOBILE_APP
+CUST00090,Qasim Dey,Senior Citizen,yuvraj04@example.com,ACTIVE,EMAIL
+CUST00437,Anusha Ravel,Senior Citizen,siya68@example.org,ACTIVE,MOBILE_APP
+CUST00007,Anirudh Choudhury,Retail,wriddhish03@example.net,ACTIVE,BRANCH
+CUST00361,Zilmil Pandey,Premium,shroffyauvani@example.net,ACTIVE,BRANCH
+CUST00347,Timothy Bahri,Salary,ishita31@example.net,ACTIVE,MOBILE_APP
+CUST00339,Shivani Sen,Retail,gaurav99@example.com,INACTIVE,MOBILE_APP
+CUST00159,Vansha Rajagopal,Salary,wallaryan@example.net,ACTIVE,PHONE
+CUST00151,Krish Mital,Salary,rnagi@example.net,INACTIVE,EMAIL
+CUST00178,Dominic Kade,Premium,paninichawla@example.org,ACTIVE,PHONE
+CUST00394,Daksh Char,Senior Citizen,dgola@example.org,ACTIVE,PHONE
+CUST00185,William Gandhi,Premium,sanayadutta@example.org,ACTIVE,PHONE
+CUST00450,Elijah Kale,Student,kamya25@example.org,ACTIVE,MOBILE_APP
+CUST00011,Nandini Bhargava,Premium,yagate@example.com,ACTIVE,BRANCH
+CUST00381,Nicholas Hari,Premium,xkumer@example.net,ACTIVE,EMAIL
+CUST00104,Anika Batra,Student,mandbachittar@example.org,ACTIVE,EMAIL
+CUST00082,Libni Thaman,Salary,jagat21@example.com,ACTIVE,EMAIL
+CUST00039,Maanav Rajagopal,Senior Citizen,ekarajmajumdar@example.com,ACTIVE,BRANCH
+CUST00315,Qushi Mandal,Student,aishani85@example.com,INACTIVE,BRANCH
+CUST00168,Sanya Mutti,Premium,gbadami@example.com,ACTIVE,MOBILE_APP
+CUST00470,Charvi Mukhopadhyay,Student,sundaramsai@example.org,INACTIVE,PHONE
+CUST00297,Vritti Thaman,Student,andrew06@example.org,ACTIVE,EMAIL
+CUST00475,Ekiya Kata,Senior Citizen,henryghosh@example.net,ACTIVE,BRANCH
+CUST00199,Jagdish Brar,Salary,wahuja@example.net,ACTIVE,MOBILE_APP
+CUST00298,Vinaya Choudhary,Senior Citizen,kzacharia@example.com,ACTIVE,BRANCH
+CUST00417,Jack Agarwal,Salary,jyoti51@example.net,ACTIVE,EMAIL
+CUST00147,David Dora,Retail,chadahemangini@example.net,ACTIVE,EMAIL
+CUST00393,Meera Chatterjee,Student,chatura47@example.net,ACTIVE,BRANCH
+CUST00148,Yadavi Varughese,Senior Citizen,jaisen@example.org,ACTIVE,PHONE
+CUST00448,Rajata Vala,Senior Citizen,zashilghose@example.org,ACTIVE,PHONE
+CUST00288,Yoshita Hari,Salary,girindraganesh@example.net,ACTIVE,BRANCH
+CUST00124,Luke Biswas,Student,galaria@example.com,ACTIVE,PHONE
+CUST00369,Girish Ramaswamy,Student,khatrinakul@example.com,ACTIVE,BRANCH
+CUST00097,Charita Puri,Salary,okhosla@example.com,ACTIVE,BRANCH
+CUST00144,Hema Garde,Student,udyal@example.org,ACTIVE,PHONE
+CUST00240,Inaya Kala,Retail,baghyawatikumar@example.org,ACTIVE,EMAIL
+CUST00443,Charan Sanghvi,Senior Citizen,zghose@example.com,ACTIVE,EMAIL
+CUST00098,George Wason,Premium,charanloyal@example.com,INACTIVE,PHONE
+CUST00408,Bhavani Baria,Premium,vsama@example.com,ACTIVE,EMAIL
+CUST00123,Vansha Brahmbhatt,Student,zilmilsaxena@example.org,ACTIVE,MOBILE_APP
+CUST00184,Faqid Bahl,Salary,ravelsimon@example.org,ACTIVE,BRANCH
+CUST00203,Shivani Natt,Salary,jagvi88@example.com,ACTIVE,MOBILE_APP
+CUST00247,Upadhriti Chatterjee,Student,udyati73@example.org,INACTIVE,EMAIL
+CUST00306,Dhriti Narayan,Retail,bkeer@example.org,ACTIVE,PHONE
+CUST00299,Kabir Peri,Student,omlajita@example.org,ACTIVE,MOBILE_APP
+CUST00352,Charles Menon,Student,gratti@example.net,ACTIVE,MOBILE_APP
+CUST00387,Yutika Sachdev,Senior Citizen,aarushnagy@example.org,INACTIVE,EMAIL
+CUST00396,Chanchal Dass,Premium,devansh82@example.com,ACTIVE,EMAIL
+CUST00285,Keya Chakrabarti,Student,amahajan@example.org,ACTIVE,PHONE
+CUST00126,Osha Pau,Premium,urishillabora@example.org,ACTIVE,MOBILE_APP
+CUST00303,Unni Loyal,Retail,hbhasin@example.org,ACTIVE,BRANCH
+CUST00224,Ekiya Chakraborty,Student,xsampath@example.com,ACTIVE,EMAIL
+CUST00419,Baghyawati Bail,Student,peterramesh@example.net,ACTIVE,MOBILE_APP
+CUST00220,Tristan Kala,Student,anthony48@example.net,ACTIVE,EMAIL
+CUST00130,Balendra Saini,Retail,yuvraj65@example.com,INACTIVE,BRANCH
+CUST00421,Amara Dasgupta,Senior Citizen,chauhanchaman@example.org,INACTIVE,MOBILE_APP
+CUST00290,Ayush Dani,Senior Citizen,luckykaran@example.com,INACTIVE,BRANCH
+CUST00445,Harshil Choudhry,Student,chhabralucky@example.com,INACTIVE,PHONE
+CUST00377,Chatura Kothari,Student,lakshmiverma@example.com,ACTIVE,PHONE
+CUST00292,Hardik Atwal,Retail,rehaanmanda@example.org,ACTIVE,PHONE
+CUST00356,Unnati Kala,Salary,znarula@example.net,ACTIVE,BRANCH
+CUST00295,Sai Raval,Senior Citizen,paninitata@example.com,INACTIVE,BRANCH
+CUST00397,Dipta Das,Retail,samueledwin@example.org,ACTIVE,BRANCH
+CUST00341,Pranit Sachdeva,Premium,lavanya41@example.org,ACTIVE,EMAIL
+CUST00113,Raksha Sethi,Student,mitalchaitanya@example.net,ACTIVE,BRANCH
+CUST00180,Urvi Dugar,Senior Citizen,labanraman@example.net,INACTIVE,EMAIL
+CUST00308,Maya Kumer,Senior Citizen,keerchameli@example.org,INACTIVE,BRANCH
+CUST00433,Ira Chakraborty,Salary,trivenikuruvilla@example.com,ACTIVE,EMAIL
+CUST00488,Nilima Bhardwaj,Premium,malhotradipta@example.org,ACTIVE,MOBILE_APP
+CUST00482,Alexander Krish,Retail,bosedakshesh@example.org,ACTIVE,PHONE
+CUST00423,Xalak Pillay,Salary,agatemanthan@example.net,ACTIVE,EMAIL
+CUST00234,Sudiksha Jaggi,Senior Citizen,qchana@example.com,INACTIVE,PHONE
+CUST00312,Tanveer Mandal,Senior Citizen,omyagole@example.com,INACTIVE,MOBILE_APP
+CUST00165,Oviya Ganesan,Salary,danieldutta@example.org,INACTIVE,PHONE
+CUST00137,Chakrika Tara,Senior Citizen,fbhat@example.com,ACTIVE,EMAIL
+CUST00198,Hema Borra,Retail,vamakshimurthy@example.com,ACTIVE,BRANCH
+CUST00259,Triya Khurana,Premium,zinalnazareth@example.net,INACTIVE,PHONE
+CUST00233,Mitali Modi,Premium,triya26@example.com,ACTIVE,BRANCH
+CUST00116,Omya Devi,Retail,lsampath@example.com,ACTIVE,PHONE
+CUST00121,Ishita Bhatnagar,Retail,bkamdar@example.org,ACTIVE,MOBILE_APP
+CUST00350,Upkaar Sampath,Senior Citizen,ronithgala@example.com,ACTIVE,PHONE
+CUST00225,Nachiket Chada,Student,kibemanbir@example.com,INACTIVE,BRANCH
+CUST00403,Dalaja Chahal,Student,fmunshi@example.net,ACTIVE,EMAIL
+CUST00398,Vritti Munshi,Salary,yashvi31@example.net,INACTIVE,BRANCH
+CUST00128,Jagdish Arora,Retail,advaygade@example.com,INACTIVE,EMAIL
+CUST00286,Mitesh Lala,Salary,pdash@example.net,INACTIVE,BRANCH
+CUST00412,Champak Gopal,Salary,benekanta@example.org,ACTIVE,EMAIL
+CUST00108,Amruta Mitra,Retail,edhingra@example.org,INACTIVE,EMAIL
+CUST00371,Arya Edwin,Premium,chaudhrypeter@example.com,ACTIVE,BRANCH
+CUST00326,Omisha Solanki,Salary,cpalan@example.net,INACTIVE,EMAIL
+CUST00134,Ishita Johal,Senior Citizen,ubika41@example.org,ACTIVE,EMAIL
+CUST00453,Wakeeta Batta,Salary,suhani71@example.com,ACTIVE,PHONE
+CUST00045,Zashil Devan,Premium,baraldayamai@example.com,INACTIVE,MOBILE_APP
+CUST00461,Faraj Garde,Premium,pandeyurvi@example.net,ACTIVE,EMAIL
+CUST00066,Harshil Varty,Retail,manefiyaz@example.org,ACTIVE,BRANCH
+CUST00284,Bhavani Pai,Salary,sanaya81@example.org,ACTIVE,BRANCH
+CUST00086,Sarthak Suresh,Senior Citizen,jpalla@example.net,ACTIVE,BRANCH
+CUST00243,Parth Choudhury,Retail,jaggigeorge@example.com,ACTIVE,EMAIL
+CUST00187,Vidhi Subramaniam,Student,thakerliam@example.com,ACTIVE,EMAIL
+CUST00384,Rudra Sur,Premium,seshadrisimon@example.org,ACTIVE,MOBILE_APP
+CUST00160,Chanchal Mannan,Senior Citizen,radha25@example.com,ACTIVE,MOBILE_APP
+CUST00013,William Lanka,Retail,charitashankar@example.com,ACTIVE,EMAIL
+CUST00036,Parth Singhal,Senior Citizen,lmall@example.net,ACTIVE,BRANCH
+CUST00029,Isha Kuruvilla,Retail,anya80@example.net,ACTIVE,BRANCH
+CUST00171,Yashoda Goel,Retail,kabirchawla@example.com,ACTIVE,MOBILE_APP
+CUST00143,Chanakya Raju,Premium,aganesan@example.com,ACTIVE,PHONE
+CUST00399,Abha Raj,Student,mugdhashan@example.org,ACTIVE,BRANCH
+CUST00343,Dominic Sule,Student,bkaur@example.com,ACTIVE,BRANCH
+CUST00222,Benjamin Nagar,Premium,etathakkar@example.net,ACTIVE,MOBILE_APP
+CUST00096,Vivaan Nagar,Senior Citizen,warjas42@example.net,ACTIVE,BRANCH
+CUST00052,Lakshmi Wali,Salary,mtiwari@example.com,ACTIVE,EMAIL
+CUST00241,Varenya Som,Premium,deshpandevasatika@example.org,INACTIVE,BRANCH
+CUST00485,Leena Sawhney,Salary,sameshraghavan@example.org,ACTIVE,BRANCH
+CUST00379,Yashasvi Sant,Salary,vasatikabahri@example.com,ACTIVE,EMAIL
+CUST00179,Shravya Ravel,Salary,anay61@example.net,INACTIVE,BRANCH
+CUST00042,Radha Chaudhari,Salary,sawhneyojas@example.net,ACTIVE,PHONE
+CUST00499,Tristan Borde,Senior Citizen,yashicanayak@example.com,ACTIVE,EMAIL
+CUST00422,Harsh Manda,Student,nathjagat@example.com,INACTIVE,MOBILE_APP
+CUST00207,Radhika Viswanathan,Student,idika78@example.org,INACTIVE,BRANCH
+CUST00283,Tristan Mall,Salary,chackosanaya@example.net,ACTIVE,MOBILE_APP
+CUST00255,Upasna Setty,Salary,anarula@example.com,INACTIVE,MOBILE_APP
+CUST00413,Garima Patel,Senior Citizen,kamya34@example.org,ACTIVE,BRANCH
+CUST00005,Priya Rastogi,Senior Citizen,lakshitupadhyay@example.com,ACTIVE,PHONE
+CUST00257,Hemal Chad,Salary,warhisachar@example.com,INACTIVE,MOBILE_APP
+CUST00449,Pushti Iyengar,Retail,kashvi17@example.org,ACTIVE,PHONE
+CUST00101,Qarin Bhargava,Student,bordechanakya@example.org,ACTIVE,PHONE
+CUST00227,Diya Sundaram,Premium,grewalrushil@example.net,ACTIVE,MOBILE_APP
+CUST00430,Frederick Basu,Student,dbath@example.com,ACTIVE,PHONE
+CUST00214,Ishita Desai,Student,sundaramraksha@example.net,ACTIVE,EMAIL
+CUST00172,Teerth Iyer,Premium,hemani22@example.net,ACTIVE,BRANCH
+CUST00099,Mekhala Khatri,Senior Citizen,barkha67@example.net,INACTIVE,MOBILE_APP
+CUST00293,Isaiah Murthy,Retail,hchoudhary@example.org,INACTIVE,EMAIL
+CUST00216,Nimrat Nagy,Senior Citizen,virkekalinga@example.org,ACTIVE,EMAIL
+CUST00062,Reva Viswanathan,Retail,janujapradhan@example.com,INACTIVE,PHONE
+CUST00048,Mohammed Sachdeva,Premium,surinikita@example.com,ACTIVE,EMAIL
+CUST00033,Saanvi Mishra,Salary,kmody@example.net,ACTIVE,MOBILE_APP
+CUST00268,Praneel Chakraborty,Student,omaja72@example.org,ACTIVE,MOBILE_APP
+CUST00328,Jagrati Lal,Premium,owenthakur@example.org,ACTIVE,PHONE
+CUST00201,Hemal Pau,Retail,nsamra@example.com,ACTIVE,MOBILE_APP
+CUST00447,Arin Vasa,Student,tarakpatla@example.org,ACTIVE,EMAIL
+CUST00028,Michael Saran,Premium,veda76@example.net,ACTIVE,BRANCH
+CUST00425,Theodore Chahal,Student,aarnav30@example.com,ACTIVE,PHONE
+CUST00231,Kashvi Gour,Premium,eswamy@example.org,INACTIVE,PHONE
+CUST00261,Aradhana Bhatia,Retail,dnatarajan@example.com,ACTIVE,EMAIL
+CUST00289,Nicholas Chaudry,Student,yahvikant@example.org,INACTIVE,BRANCH
+CUST00163,Aarnav Arya,Salary,choudhrywakeeta@example.org,INACTIVE,MOBILE_APP
+CUST00426,Jacob Dhar,Senior Citizen,samrakamya@example.org,ACTIVE,EMAIL
+CUST00139,Patrick Khalsa,Student,jagrati90@example.net,ACTIVE,PHONE
+CUST00063,Inaya Mukherjee,Salary,mdayal@example.net,INACTIVE,PHONE
+CUST00136,Kabir Chanda,Retail,jason07@example.org,ACTIVE,PHONE
+CUST00129,Watika Shah,Salary,christopher79@example.org,ACTIVE,MOBILE_APP
+CUST00477,Ekbal Oak,Senior Citizen,ngupta@example.net,INACTIVE,PHONE
+CUST00009,Ekavir Varkey,Senior Citizen,vedika38@example.org,ACTIVE,PHONE
+CUST00327,Omaja Parsa,Student,nedwin@example.org,ACTIVE,EMAIL
+CUST00464,Benjamin Venkatesh,Student,jason67@example.net,INACTIVE,EMAIL
+CUST00065,Saumya Kaur,Premium,dayamaisingh@example.org,INACTIVE,MOBILE_APP
+CUST00301,Ojas Mistry,Senior Citizen,fjaggi@example.net,ACTIVE,PHONE
+CUST00015,Aradhana Basu,Salary,kalpit42@example.net,ACTIVE,MOBILE_APP
+CUST00157,Osha Narula,Salary,chaitaly71@example.com,ACTIVE,MOBILE_APP
+CUST00041,Alexander Dhawan,Premium,falansingh@example.com,INACTIVE,PHONE
+CUST00380,Ekbal Nath,Senior Citizen,jhayre@example.org,ACTIVE,PHONE
+CUST00469,Chatura Chad,Retail,hredhaan59@example.org,ACTIVE,EMAIL
+CUST00404,Nidra Atwal,Senior Citizen,abhimanyusandal@example.net,ACTIVE,BRANCH
+CUST00217,Ekavir Arya,Premium,vyanjanabuch@example.com,ACTIVE,EMAIL
+CUST00280,Utkarsh Sule,Retail,champak25@example.com,ACTIVE,PHONE
+CUST00435,Girik Palla,Retail,dwarrior@example.org,ACTIVE,EMAIL
+CUST00431,Arjun Raja,Premium,mannanneel@example.org,ACTIVE,BRANCH
+CUST00338,Tanveer Goswami,Student,hagate@example.net,INACTIVE,EMAIL
+CUST00237,Chanchal Narula,Student,bawaikbal@example.com,ACTIVE,PHONE
+CUST00208,Vansha Mistry,Senior Citizen,mmaster@example.org,ACTIVE,MOBILE_APP
+CUST00213,Gaurav Kothari,Senior Citizen,rchand@example.net,ACTIVE,MOBILE_APP
+CUST00296,Ayushman Chaudhary,Premium,birwishi@example.net,ACTIVE,PHONE
+CUST00458,Yashoda Nath,Student,xmahajan@example.org,INACTIVE,EMAIL
+CUST00252,Siddharth Ghose,Senior Citizen,raghavrajagopalan@example.com,ACTIVE,MOBILE_APP
+CUST00489,Edhitha Barman,Senior Citizen,darshlad@example.com,INACTIVE,PHONE
+CUST00487,Megha Barad,Salary,janaki44@example.net,ACTIVE,EMAIL
+CUST00304,Nidra Khare,Salary,rehaanbala@example.org,ACTIVE,BRANCH
+CUST00351,Zinal Khalsa,Premium,ochandran@example.com,ACTIVE,BRANCH
+CUST00270,Gaurika Setty,Student,benpatrick@example.org,ACTIVE,MOBILE_APP
+CUST00202,Mason Solanki,Senior Citizen,godaoviya@example.com,ACTIVE,MOBILE_APP
+CUST00162,Omya Cheema,Salary,mandalishaan@example.org,INACTIVE,BRANCH
+CUST00044,Rushil Rajagopalan,Premium,pchhabra@example.com,ACTIVE,MOBILE_APP
+CUST00218,Lekha Gupta,Student,praneelsagar@example.net,ACTIVE,MOBILE_APP
+CUST00402,Aashi Andra,Senior Citizen,jonathandhar@example.com,ACTIVE,EMAIL
+CUST00191,Kamala Bassi,Premium,zkarnik@example.com,ACTIVE,EMAIL
+CUST00310,Kiaan Lad,Salary,baghyawati31@example.com,ACTIVE,PHONE
+CUST00260,Arjun Chanda,Premium,jairajdar@example.org,ACTIVE,BRANCH
+CUST00106,Frederick Merchant,Retail,ethanbutala@example.com,ACTIVE,PHONE
+CUST00054,Indira Chawla,Retail,mohammedsubramaniam@example.org,INACTIVE,EMAIL
+CUST00390,Isaac Chakraborty,Salary,jackpillai@example.org,ACTIVE,EMAIL
+CUST00002,Abeer Dutta,Salary,roak@example.org,INACTIVE,MOBILE_APP
+CUST00442,Aishani Mohanty,Student,akhurana@example.com,ACTIVE,EMAIL
+CUST00483,Warda Parikh,Premium,sachimittal@example.com,ACTIVE,EMAIL
+CUST00050,Owen Choudhary,Senior Citizen,deepalexander@example.com,ACTIVE,MOBILE_APP
+CUST00420,Agastya Bassi,Salary,fiyazloyal@example.org,ACTIVE,PHONE
+CUST00081,Chanakya Bedi,Senior Citizen,ssinghal@example.net,ACTIVE,BRANCH
+CUST00206,Frado Ramakrishnan,Salary,yugmander@example.com,INACTIVE,BRANCH
+CUST00035,Reva Dash,Retail,neha48@example.net,INACTIVE,BRANCH
+CUST00264,Chandani Ramakrishnan,Student,parmervidhi@example.org,ACTIVE,EMAIL
+CUST00428,Utkarsh Sampath,Premium,george86@example.org,INACTIVE,EMAIL
+CUST00367,Vanya Biswas,Salary,kalpitjha@example.com,ACTIVE,EMAIL
+CUST00092,David Tiwari,Retail,niteshnarang@example.net,ACTIVE,EMAIL
+CUST00340,Chatresh Vig,Premium,bthakkar@example.org,ACTIVE,EMAIL
+CUST00474,Krisha Sodhi,Retail,yashicavora@example.com,ACTIVE,MOBILE_APP
+CUST00053,Kavya Dua,Premium,fbhavsar@example.org,ACTIVE,MOBILE_APP
+CUST00346,Aditya Ghose,Salary,iramaswamy@example.org,INACTIVE,BRANCH
+CUST00265,Daksh Nazareth,Premium,ravijagat@example.org,INACTIVE,EMAIL
+CUST00242,Avni Balasubramanian,Senior Citizen,kwarrior@example.net,INACTIVE,PHONE
+CUST00014,Raksha Mittal,Student,mistryhemang@example.org,ACTIVE,PHONE
+CUST00316,Rajata D’Alia,Student,cbaria@example.com,INACTIVE,MOBILE_APP
+CUST00089,Wakeeta Desai,Salary,mmahajan@example.org,ACTIVE,MOBILE_APP
+CUST00388,Luke Venkatesh,Salary,dattawidisha@example.org,ACTIVE,EMAIL
+CUST00274,Meera Srinivas,Student,sethiwarhi@example.org,ACTIVE,EMAIL
+CUST00167,Yashasvi Singh,Premium,egandhi@example.com,ACTIVE,EMAIL
+CUST00329,Chandresh Sarma,Premium,gchoudhry@example.net,INACTIVE,EMAIL
+CUST00493,Omya Karpe,Senior Citizen,yashreddy@example.net,ACTIVE,PHONE
+CUST00135,Sneha Krish,Premium,zchaudry@example.org,ACTIVE,PHONE
+CUST00307,Yatin Mall,Retail,jananisoman@example.net,INACTIVE,PHONE
+CUST00481,Jeremiah Sani,Student,hdevi@example.com,ACTIVE,PHONE
+CUST00320,Quincy Saraf,Student,cchander@example.net,ACTIVE,MOBILE_APP
+CUST00244,Jack Agrawal,Retail,chahalgauri@example.com,ACTIVE,EMAIL
+CUST00055,Dayamai Nori,Retail,gollaluke@example.net,ACTIVE,EMAIL
+CUST00364,Dhriti Guha,Student,ckadakia@example.com,INACTIVE,EMAIL
+CUST00051,Siya Thakur,Senior Citizen,vermacharvi@example.com,ACTIVE,EMAIL
+CUST00457,Manan Shenoy,Senior Citizen,choudharywridesh@example.org,ACTIVE,EMAIL
+CUST00175,Arya Lalla,Retail,aadhyaahluwalia@example.com,ACTIVE,BRANCH
+CUST00446,Keya Murthy,Student,ldyal@example.com,ACTIVE,MOBILE_APP
+CUST00190,Kevin Chopra,Salary,yaminisaini@example.org,ACTIVE,PHONE
+CUST00497,Dipta Chaudhary,Salary,noah14@example.com,ACTIVE,MOBILE_APP
+CUST00188,Varenya Kade,Student,nirjabains@example.org,ACTIVE,PHONE
+CUST00170,Rohan Guha,Senior Citizen,dkale@example.org,ACTIVE,BRANCH
+CUST00059,Farhan Randhawa,Senior Citizen,harinakshi35@example.org,INACTIVE,MOBILE_APP
+CUST00049,Gavin Kala,Senior Citizen,bedigauri@example.org,ACTIVE,PHONE
+CUST00345,Jason Dey,Salary,rachana39@example.net,ACTIVE,MOBILE_APP
+CUST00236,Wakeeta Khanna,Senior Citizen,asetty@example.com,INACTIVE,PHONE
+CUST00253,Pranit Sha,Premium,ysengupta@example.com,ACTIVE,MOBILE_APP
+CUST00022,Saanvi Thaman,Senior Citizen,vdutt@example.com,ACTIVE,PHONE
+CUST00314,Kevin Barman,Student,abhagara@example.net,INACTIVE,MOBILE_APP
+CUST00460,Idika Mani,Senior Citizen,aarush12@example.net,ACTIVE,PHONE
+CUST00161,Chanakya Bava,Salary,bahrichanakya@example.net,ACTIVE,BRANCH
+CUST00277,Umang Nagi,Student,yahvi64@example.org,INACTIVE,BRANCH
+CUST00444,Advay Dua,Student,rajaaryan@example.net,ACTIVE,MOBILE_APP
+CUST00192,Abhimanyu Virk,Retail,prashadsamesh@example.net,INACTIVE,EMAIL
+CUST00386,Kamala Oza,Student,jalsarastogi@example.com,ACTIVE,EMAIL
+CUST00294,Bina Sangha,Premium,sonijhalak@example.org,ACTIVE,PHONE
+PROSPECT0001,Kabir Tripathi,Prospect,asha@example.com,PROSPECT,MOBILE_APP
+PROSPECT0002,Pahal Bhagat,Prospect,pavani41@example.net,PROSPECT,EMAIL
+PROSPECT0003,Yadavi Pradhan,Prospect,inayak@example.com,PROSPECT,PHONE
+PROSPECT0004,Praneel Samra,Prospect,jbuch@example.org,PROSPECT,MOBILE_APP
+PROSPECT0005,Aarna Hora,Prospect,dsaran@example.com,PROSPECT,MOBILE_APP
+PROSPECT0006,Balveer Dara,Prospect,xsharma@example.org,PROSPECT,EMAIL
+PROSPECT0007,Zayyan Sandal,Prospect,chaman08@example.com,PROSPECT,MOBILE_APP
+PROSPECT0008,Chaaya Parikh,Prospect,cbadal@example.com,PROSPECT,EMAIL
+PROSPECT0009,Balendra Choudhury,Prospect,balhaar86@example.org,PROSPECT,EMAIL
+PROSPECT0010,Frado Warrior,Prospect,datemaanav@example.net,PROSPECT,MOBILE_APP
+PROSPECT0011,Raagini Maharaj,Prospect,tara93@example.net,PROSPECT,MOBILE_APP
+PROSPECT0012,Banjeet Bose,Prospect,kashish02@example.net,PROSPECT,EMAIL
+PROSPECT0013,Lavanya Vala,Prospect,nazarethchasmum@example.com,PROSPECT,MOBILE_APP
+PROSPECT0014,Anthony Gour,Prospect,fariq61@example.org,PROSPECT,MOBILE_APP
+PROSPECT0015,Chavvi Varkey,Prospect,chandranprasad@example.net,PROSPECT,PHONE
+PROSPECT0016,Tanveer Sarkar,Prospect,quincy48@example.net,PROSPECT,MOBILE_APP
+PROSPECT0017,Mohini Golla,Prospect,anjali06@example.org,PROSPECT,EMAIL
+PROSPECT0018,Oeshi Dayal,Prospect,amara79@example.net,PROSPECT,EMAIL
+PROSPECT0019,Gunbir Kant,Prospect,andrewnair@example.org,PROSPECT,MOBILE_APP
+PROSPECT0020,Bhavna Sharma,Prospect,inarasimhan@example.com,PROSPECT,PHONE
+PROSPECT0021,Advik Oza,Prospect,ekaja57@example.org,PROSPECT,MOBILE_APP
+PROSPECT0022,Wishi Kade,Prospect,madhavikumer@example.com,PROSPECT,MOBILE_APP
+PROSPECT0023,Farhan Sur,Prospect,fiyaz38@example.com,PROSPECT,PHONE
+PROSPECT0024,Bishakha Murty,Prospect,bsibal@example.org,PROSPECT,MOBILE_APP
+PROSPECT0025,Indira Sankar,Prospect,wbajaj@example.com,PROSPECT,EMAIL
+PROSPECT0026,Wahab Prashad,Prospect,kritikadasgupta@example.org,PROSPECT,PHONE
+PROSPECT0027,Tejas Kakar,Prospect,mannpranav@example.org,PROSPECT,PHONE
+PROSPECT0028,Nilima Pandey,Prospect,omyamallick@example.com,PROSPECT,EMAIL
+PROSPECT0029,Hitesh Nadkarni,Prospect,zkar@example.com,PROSPECT,MOBILE_APP
+PROSPECT0030,Bhavini Sengupta,Prospect,peterratta@example.com,PROSPECT,MOBILE_APP
+PROSPECT0031,Gaurika Shetty,Prospect,guneetrajagopal@example.net,PROSPECT,PHONE
+PROSPECT0032,Omya Roy,Prospect,ayushkapur@example.org,PROSPECT,EMAIL
+PROSPECT0033,Nilima Bajaj,Prospect,zaid29@example.net,PROSPECT,PHONE
+PROSPECT0034,Gavin Prabhakar,Prospect,ramachandranyasti@example.org,PROSPECT,MOBILE_APP
+PROSPECT0035,Tanvi Pillay,Prospect,parthsodhi@example.net,PROSPECT,MOBILE_APP
+PROSPECT0036,Ekantika Deo,Prospect,dhruv03@example.net,PROSPECT,EMAIL
+PROSPECT0037,Tripti Konda,Prospect,ykhurana@example.org,PROSPECT,PHONE
+PROSPECT0038,Xiti Choudhry,Prospect,nathaniel37@example.net,PROSPECT,PHONE
+PROSPECT0039,Abhimanyu Bali,Prospect,evenkatesh@example.com,PROSPECT,MOBILE_APP
+PROSPECT0040,Omisha Lad,Prospect,wallaarjun@example.com,PROSPECT,EMAIL
+PROSPECT0041,Darpan Master,Prospect,xbaral@example.com,PROSPECT,MOBILE_APP
+PROSPECT0042,Priya Dash,Prospect,dhingraadweta@example.net,PROSPECT,EMAIL
+PROSPECT0043,Omkaar Peri,Prospect,jnori@example.org,PROSPECT,MOBILE_APP
+PROSPECT0044,Shivansh Lalla,Prospect,narayanethan@example.com,PROSPECT,MOBILE_APP
+PROSPECT0045,Yash Lad,Prospect,chakrika75@example.com,PROSPECT,EMAIL
+PROSPECT0046,Anvi Banik,Prospect,manbirvig@example.com,PROSPECT,MOBILE_APP
+PROSPECT0047,Timothy Prabhakar,Prospect,bishakha42@example.net,PROSPECT,EMAIL
+PROSPECT0048,Vaishnavi Sarraf,Prospect,mohammed22@example.net,PROSPECT,PHONE
+PROSPECT0049,Leena Kurian,Prospect,ayaankakar@example.net,PROSPECT,EMAIL
+PROSPECT0050,Manbir Arora,Prospect,januja88@example.com,PROSPECT,EMAIL
+PROSPECT0051,Onkar Padmanabhan,Prospect,yachanamurthy@example.net,PROSPECT,MOBILE_APP
+PROSPECT0052,Kritika Sundaram,Prospect,vasatikagill@example.com,PROSPECT,MOBILE_APP
+PROSPECT0053,Akshay Bhattacharyya,Prospect,umang43@example.org,PROSPECT,MOBILE_APP
+PROSPECT0054,Arunima Dar,Prospect,ishanvitara@example.com,PROSPECT,EMAIL
+PROSPECT0055,Vedant Jain,Prospect,bachittar61@example.com,PROSPECT,MOBILE_APP
+PROSPECT0056,Anika Warrior,Prospect,bhallasanya@example.net,PROSPECT,MOBILE_APP
+PROSPECT0057,Yash Kunda,Prospect,yashkari@example.net,PROSPECT,PHONE
+PROSPECT0058,Peter Baria,Prospect,arunima13@example.net,PROSPECT,PHONE
+PROSPECT0059,Kevin Virk,Prospect,darsh33@example.org,PROSPECT,EMAIL
+PROSPECT0060,Ucchal Chaudhari,Prospect,nagarelijah@example.org,PROSPECT,EMAIL
+PROSPECT0061,Jackson Sathe,Prospect,sonirudra@example.org,PROSPECT,PHONE
+PROSPECT0062,Vidhi Mital,Prospect,saniisaac@example.net,PROSPECT,EMAIL
+PROSPECT0063,Robert Shan,Prospect,krishnamurthyniharika@example.net,PROSPECT,EMAIL
+PROSPECT0064,Waida Goda,Prospect,yashica78@example.com,PROSPECT,PHONE
+PROSPECT0065,Aishani Wali,Prospect,haritamaharaj@example.net,PROSPECT,PHONE
+PROSPECT0066,Ria Choudhury,Prospect,vinayaahuja@example.com,PROSPECT,EMAIL
+PROSPECT0067,Warhi Gade,Prospect,dominicsankaran@example.net,PROSPECT,EMAIL
+PROSPECT0068,Girindra Savant,Prospect,qadim31@example.org,PROSPECT,MOBILE_APP
+PROSPECT0069,Damyanti Thaker,Prospect,ekaja87@example.org,PROSPECT,EMAIL
+PROSPECT0070,Shivansh Dubey,Prospect,naksh36@example.org,PROSPECT,MOBILE_APP
+PROSPECT0071,Naksh Nanda,Prospect,xsaha@example.net,PROSPECT,PHONE
+PROSPECT0072,Veer Lall,Prospect,xmitter@example.org,PROSPECT,PHONE
+PROSPECT0073,Gauri Pandya,Prospect,shivani46@example.net,PROSPECT,PHONE
+PROSPECT0074,Omisha Ahluwalia,Prospect,abhakta@example.com,PROSPECT,PHONE
+PROSPECT0075,Tanmayi Mahal,Prospect,jainsathvik@example.net,PROSPECT,EMAIL

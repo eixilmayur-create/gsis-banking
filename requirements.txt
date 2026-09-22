@@ -1,0 +1,8 @@
+Faker>=20.0.0
+numpy>=1.26.0
+pandas>=2.2.0
+rdflib>=7.0.0
+pyshacl>=0.26.0
+pytest>=8.0.0
+google-genai>=1.0.0
+neo4j>=6.0.0

@@ -1,0 +1,66 @@
+@prefix ex: <http://example.org/gsis/banking#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a sh:ValidationReport ;
+    sh:conforms false ;
+    sh:result [ a sh:ValidationResult ;
+            sh:focusNode <http://example.org/gsis/banking/data/Account/ACC000001> ;
+            sh:resultMessage "Account must reference a valid Customer." ;
+            sh:resultPath ex:heldBy ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape [ sh:class ex:Customer ;
+                    sh:maxCount 1 ;
+                    sh:message "Account must reference a valid Customer." ;
+                    sh:minCount 1 ;
+                    sh:path ex:heldBy ] ;
+            sh:value <http://example.org/gsis/banking/data/Customer/CUST99999> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://example.org/gsis/banking/data/Card/CARD000004> ;
+            sh:resultMessage "Card must reference a valid Account." ;
+            sh:resultPath ex:linkedToAccount ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape [ sh:class ex:Account ;
+                    sh:maxCount 1 ;
+                    sh:message "Card must reference a valid Account." ;
+                    sh:minCount 1 ;
+                    sh:path ex:linkedToAccount ] ;
+            sh:value <http://example.org/gsis/banking/data/Account/ACC999999> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://example.org/gsis/banking/data/Transaction/TXN0000003> ;
+            sh:resultMessage "Transaction amount must be zero or greater." ;
+            sh:resultPath ex:transactionAmount ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:MinInclusiveConstraintComponent ;
+            sh:sourceShape [ sh:datatype xsd:decimal ;
+                    sh:message "Transaction amount must be zero or greater." ;
+                    sh:minCount 1 ;
+                    sh:minInclusive 0 ;
+                    sh:path ex:transactionAmount ] ;
+            sh:value -5000.0 ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://example.org/gsis/banking/data/RiskEvent/RISK00005> ;
+            sh:resultMessage "Risk event must reference a valid Transaction." ;
+            sh:resultPath ex:concernsTransaction ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:ClassConstraintComponent ;
+            sh:sourceShape [ sh:class ex:Transaction ;
+                    sh:message "Risk event must reference a valid Transaction." ;
+                    sh:minCount 1 ;
+                    sh:path ex:concernsTransaction ] ;
+            sh:value <http://example.org/gsis/banking/data/Transaction/TXN9999999> ],
+        [ a sh:ValidationResult ;
+            sh:focusNode <http://example.org/gsis/banking/data/Transaction/TXN0000002> ;
+            sh:resultMessage "Transaction currency must be INR, USD or EUR." ;
+            sh:resultPath ex:transactionCurrency ;
+            sh:resultSeverity sh:Violation ;
+            sh:sourceConstraintComponent sh:InConstraintComponent ;
+            sh:sourceShape [ sh:in ( "INR"^^xsd:string "USD"^^xsd:string "EUR"^^xsd:string ) ;
+                    sh:message "Transaction currency must be INR, USD or EUR." ;
+                    sh:minCount 1 ;
+                    sh:path ex:transactionCurrency ] ;
+            sh:value "XYZ"^^xsd:string ] .
+

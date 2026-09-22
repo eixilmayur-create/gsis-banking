@@ -1,0 +1,2 @@
+risk,transaction
+http://example.org/gsis/banking/data/RiskEvent/RISK00005,http://example.org/gsis/banking/data/Transaction/TXN9999999

@@ -1,0 +1,160 @@
+@prefix ex: <http://example.org/gsis/banking#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ============================================================
+# CUSTOMER
+# ============================================================
+
+ex:CustomerShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Customer ;
+
+    sh:property [
+        sh:path ex:customerId ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Customer must have exactly one customerId." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:customerName ;
+        sh:minCount 1 ;
+        sh:datatype xsd:string ;
+        sh:message "Customer must have a name." ;
+    ] .
+
+
+# ============================================================
+# ACCOUNT
+# ============================================================
+
+ex:AccountShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Account ;
+
+    sh:property [
+        sh:path ex:accountId ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:string ;
+    ] ;
+
+    sh:property [
+        sh:path ex:heldBy ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class ex:Customer ;
+        sh:message "Account must reference a valid Customer." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:accountBalance ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:message "Account balance cannot be negative." ;
+    ] .
+
+
+# ============================================================
+# CARD
+# ============================================================
+
+ex:CardShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Card ;
+
+    sh:property [
+        sh:path ex:cardId ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path ex:linkedToAccount ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:class ex:Account ;
+        sh:message "Card must reference a valid Account." ;
+    ] .
+
+
+# ============================================================
+# TRANSACTION
+# ============================================================
+
+ex:TransactionShape
+    a sh:NodeShape ;
+    sh:targetClass ex:Transaction ;
+
+    sh:property [
+        sh:path ex:transactionId ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path ex:transactionAmount ;
+        sh:minCount 1 ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:message "Transaction amount must be zero or greater." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:transactionCurrency ;
+        sh:minCount 1 ;
+        sh:in (
+            "INR"^^xsd:string
+            "USD"^^xsd:string
+            "EUR"^^xsd:string
+        ) ;
+        sh:message "Transaction currency must be INR, USD or EUR." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:usesAccount ;
+        sh:minCount 1 ;
+        sh:class ex:Account ;
+        sh:message "Transaction must reference a valid Account." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:initiatedBy ;
+        sh:minCount 1 ;
+        sh:class ex:Customer ;
+        sh:message "Transaction must reference a valid Customer." ;
+    ] .
+
+
+# ============================================================
+# RISK EVENT
+# ============================================================
+
+ex:RiskEventShape
+    a sh:NodeShape ;
+    sh:targetClass ex:RiskEvent ;
+
+    sh:property [
+        sh:path ex:riskScore ;
+        sh:minCount 1 ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 1 ;
+        sh:message "Risk score must be between 0 and 1." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:concernsCustomer ;
+        sh:minCount 1 ;
+        sh:class ex:Customer ;
+        sh:message "Risk event must reference a valid Customer." ;
+    ] ;
+
+    sh:property [
+        sh:path ex:concernsTransaction ;
+        sh:minCount 1 ;
+        sh:class ex:Transaction ;
+        sh:message "Risk event must reference a valid Transaction." ;
+    ] .

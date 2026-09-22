@@ -1,0 +1,2 @@
+account,customer
+http://example.org/gsis/banking/data/Account/ACC000001,http://example.org/gsis/banking/data/Customer/CUST99999

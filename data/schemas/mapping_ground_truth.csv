@@ -1,0 +1,13 @@
+incoming_term,expected_mapping,expected_action
+client,Customer,REUSE
+client_id,Customer,REUSE
+card_holder,Customer,REUSE
+card_holder_id,Customer,REUSE
+account_ref,Account,REUSE
+merchant_ref,Merchant,REUSE
+payment_event,Transaction,REUSE
+subject,Customer,REUSE
+fraud_case,RiskEvent,REUSE
+mobile_wallet,DigitalWallet,CREATE_NEW
+borrower,Customer,REUSE
+terminal,TransactionTerminal,CREATE_NEW

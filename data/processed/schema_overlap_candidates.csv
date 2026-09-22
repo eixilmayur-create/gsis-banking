@@ -1,0 +1,77 @@
+left_system,left_column,right_system,right_column,lexical_similarity,semantic_group,same_inferred_type,left_identifier,right_identifier
+Core Banking,account_id,Payments,account_ref,1.0,account,True,True,True
+Core Banking,account_type,Payments,account_ref,1.0,account,True,False,True
+Core Banking,account_status,Payments,account_ref,1.0,account,True,False,True
+Cards,linked_account_ref,Core Banking,account_id,0.5,account,True,True,True
+Cards,linked_account_ref,Core Banking,account_type,0.5,account,True,True,False
+Cards,linked_account_ref,Core Banking,account_status,0.5,account,True,True,False
+Cards,linked_account_ref,Payments,account_ref,0.5,account,True,True,True
+Core Banking,customer_id,Payments,customer_ref,1.0,customer,True,True,True
+Core Banking,customer_id,Payments,customer_ref,1.0,customer,True,True,True
+Core Banking,customer_name,Payments,customer_ref,1.0,customer,True,False,True
+Core Banking,customer_segment,Payments,customer_ref,0.5,customer,True,False,True
+Cards,card_holder_id,Core Banking,customer_id,0.0,customer,True,True,True
+Cards,card_holder_id,Core Banking,customer_id,0.0,customer,True,True,True
+Cards,card_holder_id,Core Banking,customer_name,0.0,customer,True,True,False
+Cards,card_holder_id,Core Banking,customer_segment,0.0,customer,True,True,False
+Cards,card_holder_id,Crm,client_id,0.0,customer,True,True,True
+Cards,card_holder_id,Crm,client_name,0.0,customer,True,True,False
+Cards,card_holder_id,Crm,client_type,0.0,customer,True,True,False
+Cards,card_holder_id,Fraud,subject_id,0.0,customer,True,True,True
+Cards,card_holder_id,Fraud,subject_type,0.0,customer,True,True,False
+Cards,card_holder_id,Payments,customer_ref,0.0,customer,True,True,True
+Cards,holder_name,Core Banking,customer_id,0.0,customer,True,False,True
+Cards,holder_name,Core Banking,customer_id,0.0,customer,True,False,True
+Cards,holder_name,Core Banking,customer_name,0.0,customer,True,False,False
+Cards,holder_name,Core Banking,customer_segment,0.0,customer,True,False,False
+Cards,holder_name,Crm,client_id,0.0,customer,True,False,True
+Cards,holder_name,Crm,client_name,0.0,customer,True,False,False
+Cards,holder_name,Crm,client_type,0.0,customer,True,False,False
+Cards,holder_name,Fraud,subject_id,0.0,customer,True,False,True
+Cards,holder_name,Fraud,subject_type,0.0,customer,True,False,False
+Cards,holder_name,Payments,customer_ref,0.0,customer,True,False,True
+Core Banking,customer_id,Crm,client_id,0.0,customer,True,True,True
+Core Banking,customer_id,Crm,client_name,0.0,customer,True,True,False
+Core Banking,customer_id,Crm,client_type,0.0,customer,True,True,False
+Core Banking,customer_id,Fraud,subject_id,0.0,customer,True,True,True
+Core Banking,customer_id,Fraud,subject_type,0.0,customer,True,True,False
+Core Banking,customer_id,Crm,client_id,0.0,customer,True,True,True
+Core Banking,customer_id,Crm,client_name,0.0,customer,True,True,False
+Core Banking,customer_id,Crm,client_type,0.0,customer,True,True,False
+Core Banking,customer_id,Fraud,subject_id,0.0,customer,True,True,True
+Core Banking,customer_id,Fraud,subject_type,0.0,customer,True,True,False
+Core Banking,customer_name,Crm,client_id,0.0,customer,True,False,True
+Core Banking,customer_name,Crm,client_name,0.0,customer,True,False,False
+Core Banking,customer_name,Crm,client_type,0.0,customer,True,False,False
+Core Banking,customer_name,Fraud,subject_id,0.0,customer,True,False,True
+Core Banking,customer_name,Fraud,subject_type,0.0,customer,True,False,False
+Core Banking,customer_segment,Crm,client_id,0.0,customer,True,False,True
+Core Banking,customer_segment,Crm,client_name,0.0,customer,True,False,False
+Core Banking,customer_segment,Crm,client_type,0.0,customer,True,False,False
+Core Banking,customer_segment,Fraud,subject_id,0.0,customer,True,False,True
+Core Banking,customer_segment,Fraud,subject_type,0.0,customer,True,False,False
+Crm,client_id,Fraud,subject_id,0.0,customer,True,True,True
+Crm,client_id,Fraud,subject_type,0.0,customer,True,True,False
+Crm,client_id,Payments,customer_ref,0.0,customer,True,True,True
+Crm,client_name,Fraud,subject_id,0.0,customer,True,False,True
+Crm,client_name,Fraud,subject_type,0.0,customer,True,False,False
+Crm,client_name,Payments,customer_ref,0.0,customer,True,False,True
+Crm,client_type,Fraud,subject_id,0.0,customer,True,False,True
+Crm,client_type,Fraud,subject_type,0.0,customer,True,False,False
+Crm,client_type,Payments,customer_ref,0.0,customer,True,False,True
+Fraud,subject_id,Payments,customer_ref,0.0,customer,True,True,True
+Fraud,subject_type,Payments,customer_ref,0.0,customer,True,False,True
+Fraud,transaction_ref,Payments,transaction_id,1.0,transaction,True,True,True
+Fraud,transaction_ref,Payments,transaction_type,1.0,transaction,True,True,False
+Fraud,transaction_ref,Payments,transaction_amount,0.5,transaction,False,True,False
+Fraud,transaction_ref,Payments,transaction_channel,0.5,transaction,True,True,False
+Fraud,transaction_ref,Payments,transaction_date,0.5,transaction,False,True,False
+Fraud,risk_event_id,Payments,transaction_id,0.0,transaction,True,True,True
+Fraud,risk_event_id,Payments,transaction_type,0.0,transaction,True,True,False
+Fraud,risk_event_id,Payments,transaction_amount,0.0,transaction,False,True,False
+Fraud,risk_event_id,Payments,transaction_channel,0.0,transaction,True,True,False
+Fraud,risk_event_id,Payments,transaction_date,0.0,transaction,False,True,False
+Core Banking,currency_code,Payments,currency,1.0,,True,True,False
+Core Banking,email,Crm,contact_email,0.5,,True,False,False
+Core Banking,opened_date,Payments,transaction_date,0.3333,,True,False,False
+Crm,preferred_channel,Payments,transaction_channel,0.3333,,True,False,False

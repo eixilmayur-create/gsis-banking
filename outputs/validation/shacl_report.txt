@@ -1,0 +1,38 @@
+Validation Report
+Conforms: False
+Results (5):
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ex:Account ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Card must reference a valid Account.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path ex:linkedToAccount ]
+	Focus Node: <http://example.org/gsis/banking/data/Card/CARD000004>
+	Value Node: <http://example.org/gsis/banking/data/Account/ACC999999>
+	Result Path: ex:linkedToAccount
+	Message: Card must reference a valid Account.
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ex:Customer ; sh:maxCount Literal("1", datatype=xsd:integer) ; sh:message Literal("Account must reference a valid Customer.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path ex:heldBy ]
+	Focus Node: <http://example.org/gsis/banking/data/Account/ACC000001>
+	Value Node: <http://example.org/gsis/banking/data/Customer/CUST99999>
+	Result Path: ex:heldBy
+	Message: Account must reference a valid Customer.
+Constraint Violation in ClassConstraintComponent (http://www.w3.org/ns/shacl#ClassConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:class ex:Transaction ; sh:message Literal("Risk event must reference a valid Transaction.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path ex:concernsTransaction ]
+	Focus Node: <http://example.org/gsis/banking/data/RiskEvent/RISK00005>
+	Value Node: <http://example.org/gsis/banking/data/Transaction/TXN9999999>
+	Result Path: ex:concernsTransaction
+	Message: Risk event must reference a valid Transaction.
+Constraint Violation in InConstraintComponent (http://www.w3.org/ns/shacl#InConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:in ( Literal("INR", datatype=xsd:string) Literal("USD", datatype=xsd:string) Literal("EUR", datatype=xsd:string) ) ; sh:message Literal("Transaction currency must be INR, USD or EUR.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:path ex:transactionCurrency ]
+	Focus Node: <http://example.org/gsis/banking/data/Transaction/TXN0000002>
+	Value Node: Literal("XYZ", datatype=xsd:string)
+	Result Path: ex:transactionCurrency
+	Message: Transaction currency must be INR, USD or EUR.
+Constraint Violation in MinInclusiveConstraintComponent (http://www.w3.org/ns/shacl#MinInclusiveConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: [ sh:datatype xsd:decimal ; sh:message Literal("Transaction amount must be zero or greater.") ; sh:minCount Literal("1", datatype=xsd:integer) ; sh:minInclusive Literal("0", datatype=xsd:integer) ; sh:path ex:transactionAmount ]
+	Focus Node: <http://example.org/gsis/banking/data/Transaction/TXN0000003>
+	Value Node: Literal("-5000.0", datatype=xsd:decimal)
+	Result Path: ex:transactionAmount
+	Message: Transaction amount must be zero or greater.

@@ -1,0 +1,703 @@
+@prefix ex: <http://example.org/gsis/banking#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+#################################################################
+# ONTOLOGY METADATA
+#################################################################
+
+ex:BankingOntology
+    a owl:Ontology ;
+    rdfs:label "GSIS Retail Banking Ontology" ;
+    rdfs:comment """
+    Semantic model used by the Graph Schema Intelligence System
+    for retail banking schema mapping, validation, reuse,
+    collision detection and ontology governance.
+    """ .
+
+
+#################################################################
+# TOP-LEVEL CLASSES
+#################################################################
+
+
+# ---------------------------------------------------------------
+# PARTY
+# ---------------------------------------------------------------
+
+ex:Party
+    a owl:Class ;
+    rdfs:label "Party" ;
+    rdfs:comment """
+    A person or organisation participating in a banking
+    relationship or financial interaction.
+    """ .
+
+
+# ---------------------------------------------------------------
+# FINANCIAL PRODUCT
+# ---------------------------------------------------------------
+
+ex:FinancialProduct
+    a owl:Class ;
+    rdfs:label "Financial Product" ;
+    rdfs:comment """
+    A financial product or service offered by the bank.
+    """ .
+
+
+# ---------------------------------------------------------------
+# TRANSACTION
+# ---------------------------------------------------------------
+
+ex:Transaction
+    a owl:Class ;
+    rdfs:label "Transaction" ;
+    rdfs:comment """
+    A financial event involving movement or transfer of value.
+    """ .
+
+
+# ---------------------------------------------------------------
+# LOCATION
+# ---------------------------------------------------------------
+
+ex:Location
+    a owl:Class ;
+    rdfs:label "Location" ;
+    rdfs:comment """
+    Physical or logical location associated with banking activity.
+    """ .
+
+
+# ---------------------------------------------------------------
+# RISK EVENT
+# ---------------------------------------------------------------
+
+ex:RiskEvent
+    a owl:Class ;
+    rdfs:label "Risk Event" ;
+    rdfs:comment """
+    Event representing fraud, compliance, AML or other
+    banking risk activity.
+    """ .
+
+
+#################################################################
+# PARTY SUBCLASSES
+#################################################################
+
+
+ex:Customer
+    a owl:Class ;
+    rdfs:subClassOf ex:Party ;
+    rdfs:label "Customer" ;
+    rdfs:comment """
+    Individual or organisation maintaining a banking
+    relationship with the institution.
+    """ .
+
+
+ex:Merchant
+    a owl:Class ;
+    rdfs:subClassOf ex:Party ;
+    rdfs:label "Merchant" ;
+    rdfs:comment """
+    Business entity receiving payments for goods or services.
+    """ .
+
+
+ex:Organization
+    a owl:Class ;
+    rdfs:subClassOf ex:Party ;
+    rdfs:label "Organization" ;
+    rdfs:comment """
+    Legal or business organisation participating in banking
+    activity.
+    """ .
+
+
+#################################################################
+# FINANCIAL PRODUCT SUBCLASSES
+#################################################################
+
+
+ex:Account
+    a owl:Class ;
+    rdfs:subClassOf ex:FinancialProduct ;
+    rdfs:label "Account" ;
+    rdfs:comment """
+    Financial account maintained by the bank for a customer.
+    """ .
+
+
+ex:Card
+    a owl:Class ;
+    rdfs:subClassOf ex:FinancialProduct ;
+    rdfs:label "Card" ;
+    rdfs:comment """
+    Payment card issued to a customer and typically linked to
+    a banking account.
+    """ .
+
+
+ex:Loan
+    a owl:Class ;
+    rdfs:subClassOf ex:FinancialProduct ;
+    rdfs:label "Loan" ;
+    rdfs:comment """
+    Credit facility provided to a borrower.
+    """ .
+
+
+ex:DigitalWallet
+    a owl:Class ;
+    rdfs:subClassOf ex:FinancialProduct ;
+    rdfs:label "Digital Wallet" ;
+    rdfs:comment """
+    Digital financial wallet used to store value or initiate
+    payments.
+    """ .
+
+
+#################################################################
+# TRANSACTION SUBCLASSES
+#################################################################
+
+
+ex:CardTransaction
+    a owl:Class ;
+    rdfs:subClassOf ex:Transaction ;
+    rdfs:label "Card Transaction" ;
+    rdfs:comment """
+    Transaction initiated using a debit or credit card.
+    """ .
+
+
+ex:BankTransfer
+    a owl:Class ;
+    rdfs:subClassOf ex:Transaction ;
+    rdfs:label "Bank Transfer" ;
+    rdfs:comment """
+    Account-to-account financial transfer such as NEFT or IMPS.
+    """ .
+
+
+ex:CashWithdrawal
+    a owl:Class ;
+    rdfs:subClassOf ex:Transaction ;
+    rdfs:label "Cash Withdrawal" ;
+    rdfs:comment """
+    Transaction representing withdrawal of cash from an account.
+    """ .
+
+
+#################################################################
+# LOCATION SUBCLASSES
+#################################################################
+
+
+ex:Branch
+    a owl:Class ;
+    rdfs:subClassOf ex:Location ;
+    rdfs:label "Branch" ;
+    rdfs:comment """
+    Physical banking branch.
+    """ .
+
+
+ex:TransactionTerminal
+    a owl:Class ;
+    rdfs:subClassOf ex:Location ;
+    rdfs:label "Transaction Terminal" ;
+    rdfs:comment """
+    Physical or electronic terminal used to perform a financial
+    transaction, such as an ATM or POS terminal.
+    """ .
+
+
+#################################################################
+# RISK EVENT SUBCLASSES
+#################################################################
+
+
+ex:FraudAlert
+    a owl:Class ;
+    rdfs:subClassOf ex:RiskEvent ;
+    rdfs:label "Fraud Alert" ;
+    rdfs:comment """
+    Risk event generated because suspicious financial activity
+    was detected.
+    """ .
+
+
+ex:AMLAlert
+    a owl:Class ;
+    rdfs:subClassOf ex:RiskEvent ;
+    rdfs:label "AML Alert" ;
+    rdfs:comment """
+    Compliance event related to possible anti-money-laundering
+    concerns.
+    """ .
+
+
+#################################################################
+# SUPPORTING CLASSES
+#################################################################
+
+
+ex:PaymentChannel
+    a owl:Class ;
+    rdfs:label "Payment Channel" ;
+    rdfs:comment """
+    Channel through which a transaction was initiated,
+    such as mobile, web, ATM, POS or branch.
+    """ .
+
+
+#################################################################
+# DISJOINT CLASSES
+#################################################################
+#
+# Customer and Merchant both inherit from Party.
+#
+# However, for this project we treat their business roles as
+# semantically distinct.
+#
+# This becomes useful later in collision detection.
+#################################################################
+
+
+ex:Customer
+    owl:disjointWith ex:Merchant .
+
+
+#################################################################
+# OBJECT PROPERTIES
+#################################################################
+
+
+# ---------------------------------------------------------------
+# Customer owns Account
+# ---------------------------------------------------------------
+
+ex:ownsAccount
+    a owl:ObjectProperty ;
+    rdfs:label "owns account" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range ex:Account ;
+    owl:inverseOf ex:heldBy .
+
+
+# ---------------------------------------------------------------
+# Account held by Customer
+# ---------------------------------------------------------------
+
+ex:heldBy
+    a owl:ObjectProperty ;
+    rdfs:label "held by" ;
+    rdfs:domain ex:Account ;
+    rdfs:range ex:Customer .
+
+
+# ---------------------------------------------------------------
+# Customer holds Card
+# ---------------------------------------------------------------
+
+ex:holdsCard
+    a owl:ObjectProperty ;
+    rdfs:label "holds card" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range ex:Card .
+
+
+# ---------------------------------------------------------------
+# Card linked to Account
+# ---------------------------------------------------------------
+
+ex:linkedToAccount
+    a owl:ObjectProperty ;
+    rdfs:label "linked to account" ;
+    rdfs:domain ex:Card ;
+    rdfs:range ex:Account .
+
+
+# ---------------------------------------------------------------
+# Customer initiates Transaction
+# ---------------------------------------------------------------
+
+ex:initiatesTransaction
+    a owl:ObjectProperty ;
+    rdfs:label "initiates transaction" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range ex:Transaction ;
+    owl:inverseOf ex:initiatedBy .
+
+
+# ---------------------------------------------------------------
+# Transaction initiated by Customer
+# ---------------------------------------------------------------
+
+ex:initiatedBy
+    a owl:ObjectProperty ;
+    rdfs:label "initiated by" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range ex:Customer .
+
+
+# ---------------------------------------------------------------
+# Transaction uses Account
+# ---------------------------------------------------------------
+
+ex:usesAccount
+    a owl:ObjectProperty ;
+    rdfs:label "uses account" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range ex:Account .
+
+
+# ---------------------------------------------------------------
+# Transaction paid to Merchant
+# ---------------------------------------------------------------
+
+ex:paidTo
+    a owl:ObjectProperty ;
+    rdfs:label "paid to" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range ex:Merchant .
+
+
+# ---------------------------------------------------------------
+# Transaction uses Payment Channel
+# ---------------------------------------------------------------
+
+ex:usesChannel
+    a owl:ObjectProperty ;
+    rdfs:label "uses channel" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range ex:PaymentChannel .
+
+
+# ---------------------------------------------------------------
+# Transaction occurred at Location
+# ---------------------------------------------------------------
+
+ex:occurredAt
+    a owl:ObjectProperty ;
+    rdfs:label "occurred at" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range ex:Location .
+
+
+# ---------------------------------------------------------------
+# Transaction triggered Risk Event
+# ---------------------------------------------------------------
+
+ex:triggeredRiskEvent
+    a owl:ObjectProperty ;
+    rdfs:label "triggered risk event" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range ex:RiskEvent ;
+    owl:inverseOf ex:concernsTransaction .
+
+
+# ---------------------------------------------------------------
+# Risk Event concerns Transaction
+# ---------------------------------------------------------------
+
+ex:concernsTransaction
+    a owl:ObjectProperty ;
+    rdfs:label "concerns transaction" ;
+    rdfs:domain ex:RiskEvent ;
+    rdfs:range ex:Transaction .
+
+
+# ---------------------------------------------------------------
+# Risk Event concerns Customer
+# ---------------------------------------------------------------
+
+ex:concernsCustomer
+    a owl:ObjectProperty ;
+    rdfs:label "concerns customer" ;
+    rdfs:domain ex:RiskEvent ;
+    rdfs:range ex:Customer .
+
+
+# ---------------------------------------------------------------
+# Account serviced by Branch
+# ---------------------------------------------------------------
+
+ex:servicedByBranch
+    a owl:ObjectProperty ;
+    rdfs:label "serviced by branch" ;
+    rdfs:domain ex:Account ;
+    rdfs:range ex:Branch .
+
+
+#################################################################
+# DATATYPE PROPERTIES - CUSTOMER
+#################################################################
+
+
+ex:customerId
+    a owl:DatatypeProperty ;
+    rdfs:label "customer id" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range xsd:string .
+
+
+ex:customerName
+    a owl:DatatypeProperty ;
+    rdfs:label "customer name" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range xsd:string .
+
+
+ex:dateOfBirth
+    a owl:DatatypeProperty ;
+    rdfs:label "date of birth" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range xsd:date .
+
+
+ex:email
+    a owl:DatatypeProperty ;
+    rdfs:label "email" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range xsd:string .
+
+
+ex:mobileNumber
+    a owl:DatatypeProperty ;
+    rdfs:label "mobile number" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range xsd:string .
+
+
+ex:customerSegment
+    a owl:DatatypeProperty ;
+    rdfs:label "customer segment" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range xsd:string .
+
+
+ex:kycStatus
+    a owl:DatatypeProperty ;
+    rdfs:label "KYC status" ;
+    rdfs:domain ex:Customer ;
+    rdfs:range xsd:string .
+
+
+#################################################################
+# DATATYPE PROPERTIES - ACCOUNT
+#################################################################
+
+
+ex:accountId
+    a owl:DatatypeProperty ;
+    rdfs:label "account id" ;
+    rdfs:domain ex:Account ;
+    rdfs:range xsd:string .
+
+
+ex:accountType
+    a owl:DatatypeProperty ;
+    rdfs:label "account type" ;
+    rdfs:domain ex:Account ;
+    rdfs:range xsd:string .
+
+
+ex:accountStatus
+    a owl:DatatypeProperty ;
+    rdfs:label "account status" ;
+    rdfs:domain ex:Account ;
+    rdfs:range xsd:string .
+
+
+ex:currencyCode
+    a owl:DatatypeProperty ;
+    rdfs:label "currency code" ;
+    rdfs:domain ex:Account ;
+    rdfs:range xsd:string .
+
+
+ex:accountBalance
+    a owl:DatatypeProperty ;
+    rdfs:label "account balance" ;
+    rdfs:domain ex:Account ;
+    rdfs:range xsd:decimal .
+
+
+ex:openedDate
+    a owl:DatatypeProperty ;
+    rdfs:label "opened date" ;
+    rdfs:domain ex:Account ;
+    rdfs:range xsd:date .
+
+
+#################################################################
+# DATATYPE PROPERTIES - CARD
+#################################################################
+
+
+ex:cardId
+    a owl:DatatypeProperty ;
+    rdfs:label "card id" ;
+    rdfs:domain ex:Card ;
+    rdfs:range xsd:string .
+
+
+ex:cardType
+    a owl:DatatypeProperty ;
+    rdfs:label "card type" ;
+    rdfs:domain ex:Card ;
+    rdfs:range xsd:string .
+
+
+ex:cardNetwork
+    a owl:DatatypeProperty ;
+    rdfs:label "card network" ;
+    rdfs:domain ex:Card ;
+    rdfs:range xsd:string .
+
+
+ex:cardStatus
+    a owl:DatatypeProperty ;
+    rdfs:label "card status" ;
+    rdfs:domain ex:Card ;
+    rdfs:range xsd:string .
+
+
+ex:expiryYear
+    a owl:DatatypeProperty ;
+    rdfs:label "expiry year" ;
+    rdfs:domain ex:Card ;
+    rdfs:range xsd:integer .
+
+
+#################################################################
+# DATATYPE PROPERTIES - TRANSACTION
+#################################################################
+
+
+ex:transactionId
+    a owl:DatatypeProperty ;
+    rdfs:label "transaction id" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range xsd:string .
+
+
+ex:transactionType
+    a owl:DatatypeProperty ;
+    rdfs:label "transaction type" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range xsd:string .
+
+
+ex:transactionAmount
+    a owl:DatatypeProperty ;
+    rdfs:label "transaction amount" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range xsd:decimal .
+
+
+ex:transactionCurrency
+    a owl:DatatypeProperty ;
+    rdfs:label "transaction currency" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range xsd:string .
+
+
+ex:transactionDate
+    a owl:DatatypeProperty ;
+    rdfs:label "transaction date" ;
+    rdfs:domain ex:Transaction ;
+    rdfs:range xsd:dateTime .
+
+
+#################################################################
+# DATATYPE PROPERTIES - MERCHANT
+#################################################################
+
+
+ex:merchantId
+    a owl:DatatypeProperty ;
+    rdfs:label "merchant id" ;
+    rdfs:domain ex:Merchant ;
+    rdfs:range xsd:string .
+
+
+ex:merchantCategory
+    a owl:DatatypeProperty ;
+    rdfs:label "merchant category" ;
+    rdfs:domain ex:Merchant ;
+    rdfs:range xsd:string .
+
+
+#################################################################
+# DATATYPE PROPERTIES - RISK EVENT
+#################################################################
+
+
+ex:riskEventId
+    a owl:DatatypeProperty ;
+    rdfs:label "risk event id" ;
+    rdfs:domain ex:RiskEvent ;
+    rdfs:range xsd:string .
+
+
+ex:riskType
+    a owl:DatatypeProperty ;
+    rdfs:label "risk type" ;
+    rdfs:domain ex:RiskEvent ;
+    rdfs:range xsd:string .
+
+
+ex:riskScore
+    a owl:DatatypeProperty ;
+    rdfs:label "risk score" ;
+    rdfs:domain ex:RiskEvent ;
+    rdfs:range xsd:decimal .
+
+
+ex:riskLevel
+    a owl:DatatypeProperty ;
+    rdfs:label "risk level" ;
+    rdfs:domain ex:RiskEvent ;
+    rdfs:range xsd:string .
+
+
+ex:investigationStatus
+    a owl:DatatypeProperty ;
+    rdfs:label "investigation status" ;
+    rdfs:domain ex:RiskEvent ;
+    rdfs:range xsd:string .
+
+
+#################################################################
+# DATATYPE PROPERTIES - SUPPORTING CLASSES
+#################################################################
+
+
+ex:branchCode
+    a owl:DatatypeProperty ;
+    rdfs:label "branch code" ;
+    rdfs:domain ex:Branch ;
+    rdfs:range xsd:string .
+
+
+ex:channelName
+    a owl:DatatypeProperty ;
+    rdfs:label "channel name" ;
+    rdfs:domain ex:PaymentChannel ;
+    rdfs:range xsd:string .
+
+
+ex:terminalId
+    a owl:DatatypeProperty ;
+    rdfs:label "terminal id" ;
+    rdfs:domain ex:TransactionTerminal ;
+    rdfs:range xsd:string .
