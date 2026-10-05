@@ -175,9 +175,3 @@ docs/                 architecture, resume bullets, and interview walkthrough
 - The Gemini and embedding stages depend on external model versions and cloud availability.
 - The generated data is synthetic and does not demonstrate production-scale security, lineage, or operations.
 - Neo4j loading is separate from the RDF validation path and was not included in the recorded evaluation metrics.
-
-## Portfolio material
-
-- [Architecture explanation](docs/ARCHITECTURE.md)
-- [Resume bullets](docs/RESUME_BULLETS.md)
-- [Three-minute interview walkthrough](docs/INTERVIEW_WALKTHROUGH.md)
